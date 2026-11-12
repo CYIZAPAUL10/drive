@@ -1,4 +1,4 @@
-# ELVAIS runbook
+# ERVAIS runbook
 
 ## Every day
 Open the admin Overview. It should show "All emails have been sent" and a Background job that ran

@@ -57,7 +57,7 @@ enum ClickType {
   call
 }
 
-/// The single driver record (ELVAIS). No license or plate, by decision.
+/// The single driver record (ERVAIS). No license or plate, by decision.
 model Driver {
   id                 String   @id @default("singleton")
   name               String

@@ -1,9 +1,9 @@
 {
   "Booking": {
-    "metaTitle": "Demander une course | ELVAIS",
-    "metaDescription": "Envoyez une demande de course à ELVAIS à Kigali. Il vous contactera pour confirmer les détails et convenir du prix.",
+    "metaTitle": "Demander une course | ERVAIS",
+    "metaDescription": "Envoyez une demande de course à ERVAIS à Kigali. Il vous contactera pour confirmer les détails et convenir du prix.",
     "title": "Demander une <accent>course</accent>",
-    "intro": "Parlez à ELVAIS de votre trajet. Il vous contactera par appel ou WhatsApp pour confirmer les détails et convenir du prix.",
+    "intro": "Parlez à ERVAIS de votre trajet. Il vous contactera par appel ou WhatsApp pour confirmer les détails et convenir du prix.",
     "required": "(obligatoire)",
     "optional": "(facultatif)",
     "sections": {
@@ -31,11 +31,11 @@
       "passengers": { "label": "Nombre de passagers", "hint": "Jusqu'à {max}." },
       "notes": { "label": "Remarques", "hint": "Par exemple bagages, siège enfant ou numéro de vol." },
       "preferredContact": {
-        "label": "Comment ELVAIS doit-il vous contacter ?",
+        "label": "Comment ERVAIS doit-il vous contacter ?",
         "options": { "call": "Appel téléphonique", "whatsapp": "WhatsApp" }
       }
     },
-    "notice": "ELVAIS vous contactera pour confirmer les détails et convenir du prix. Aucun paiement en ligne n'est requis.",
+    "notice": "ERVAIS vous contactera pour confirmer les détails et convenir du prix. Aucun paiement en ligne n'est requis.",
     "crossBorder": "Les trajets transfrontaliers ne sont pas proposés. Les trajets doivent rester au Rwanda.",
     "submit": "Envoyer la demande",
     "submitting": "Envoi en cours…",
@@ -56,19 +56,19 @@
       "daysRange": "Saisissez un nombre de jours de {minDays} à {maxDays}.",
       "formExpired": "Ce formulaire a expiré. Vos réponses sont conservées, veuillez l'envoyer de nouveau.",
       "tryAgain": "Un problème est survenu. Veuillez réessayer l'envoi.",
-      "rateLimited": "Trop de demandes depuis votre connexion. Patientez quelques minutes, ou appelez ELVAIS directement ou écrivez-lui sur WhatsApp.",
-      "serverError": "Nous n'avons pas pu enregistrer votre demande. Veuillez réessayer, ou appeler ELVAIS directement ou lui écrire sur WhatsApp."
+      "rateLimited": "Trop de demandes depuis votre connexion. Patientez quelques minutes, ou appelez ERVAIS directement ou écrivez-lui sur WhatsApp.",
+      "serverError": "Nous n'avons pas pu enregistrer votre demande. Veuillez réessayer, ou appeler ERVAIS directement ou lui écrire sur WhatsApp."
     }
   },
   "Received": {
-    "metaTitle": "Demande reçue | ELVAIS",
+    "metaTitle": "Demande reçue | ERVAIS",
     "title": "Demande <accent>reçue</accent>",
-    "lead": "Merci. Votre demande de course a été envoyée à ELVAIS.",
+    "lead": "Merci. Votre demande de course a été envoyée à ERVAIS.",
     "codeLabel": "Votre code de référence",
     "keepCode": "Conservez ce code au cas où vous devriez mentionner votre demande.",
-    "contactText": "ELVAIS vous contactera par appel ou WhatsApp pour confirmer les détails et convenir du prix.",
+    "contactText": "ERVAIS vous contactera par appel ou WhatsApp pour confirmer les détails et convenir du prix.",
     "noPayment": "Aucun paiement en ligne n'est requis.",
-    "whatsappPrefill": "Bonjour ELVAIS, la référence de ma demande est {ref}.",
+    "whatsappPrefill": "Bonjour ERVAIS, la référence de ma demande est {ref}.",
     "backHome": "Retour à l'accueil"
   }
 }

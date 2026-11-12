@@ -1,9 +1,9 @@
 {
   "Booking": {
-    "metaTitle": "Request a ride | ELVAIS",
-    "metaDescription": "Send a ride request to ELVAIS in Kigali. He will contact you to confirm the details and agree the price.",
+    "metaTitle": "Request a ride | ERVAIS",
+    "metaDescription": "Send a ride request to ERVAIS in Kigali. He will contact you to confirm the details and agree the price.",
     "title": "Request a <accent>ride</accent>",
-    "intro": "Tell ELVAIS about your trip. He will contact you by call or WhatsApp to confirm the details and agree the price.",
+    "intro": "Tell ERVAIS about your trip. He will contact you by call or WhatsApp to confirm the details and agree the price.",
     "required": "(required)",
     "optional": "(optional)",
     "sections": {
@@ -31,11 +31,11 @@
       "passengers": { "label": "Number of passengers", "hint": "Up to {max}." },
       "notes": { "label": "Notes", "hint": "For example luggage, a child seat or your flight number." },
       "preferredContact": {
-        "label": "How should ELVAIS contact you?",
+        "label": "How should ERVAIS contact you?",
         "options": { "call": "Phone call", "whatsapp": "WhatsApp" }
       }
     },
-    "notice": "ELVAIS will contact you to confirm the details and agree the price. No online payment is required.",
+    "notice": "ERVAIS will contact you to confirm the details and agree the price. No online payment is required.",
     "crossBorder": "Cross-border trips are not offered. Trips must stay within Rwanda.",
     "submit": "Send request",
     "submitting": "Sending…",
@@ -56,19 +56,19 @@
       "daysRange": "Enter a number of days from {minDays} to {maxDays}.",
       "formExpired": "This form has expired. Your answers are kept, so please send it again.",
       "tryAgain": "Something went wrong. Please try sending again.",
-      "rateLimited": "Too many requests from your connection. Please wait a few minutes, or call or WhatsApp ELVAIS directly.",
-      "serverError": "We could not save your request. Please try again, or call or WhatsApp ELVAIS directly."
+      "rateLimited": "Too many requests from your connection. Please wait a few minutes, or call or WhatsApp ERVAIS directly.",
+      "serverError": "We could not save your request. Please try again, or call or WhatsApp ERVAIS directly."
     }
   },
   "Received": {
-    "metaTitle": "Request received | ELVAIS",
+    "metaTitle": "Request received | ERVAIS",
     "title": "Request <accent>received</accent>",
-    "lead": "Thank you. Your ride request has been sent to ELVAIS.",
+    "lead": "Thank you. Your ride request has been sent to ERVAIS.",
     "codeLabel": "Your reference code",
     "keepCode": "Keep this code in case you need to mention your request.",
-    "contactText": "ELVAIS will contact you by call or WhatsApp to confirm the details and agree the price.",
+    "contactText": "ERVAIS will contact you by call or WhatsApp to confirm the details and agree the price.",
     "noPayment": "No online payment is required.",
-    "whatsappPrefill": "Hello ELVAIS, my request reference is {ref}.",
+    "whatsappPrefill": "Hello ERVAIS, my request reference is {ref}.",
     "backHome": "Back to home"
   }
 }

@@ -7,7 +7,7 @@ import { env } from '@/server/config/env';
 import * as customers from '@/server/repositories/customer.repo';
 import { signToken, verifyToken } from './token';
 
-const COOKIE = 'elvais_customer';
+const COOKIE = 'ervais_customer';
 const MAX_AGE_SECONDS = 30 * 24 * 60 * 60; // 30 days
 
 // Its own key, so an admin token can never be used as a customer token, or the other way round

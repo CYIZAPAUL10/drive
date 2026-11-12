@@ -104,7 +104,7 @@ export default function ProfileForm({ initial }: { initial: ProfileInitial }) {
       <section className={styles.section} aria-labelledby="sec-bio">
         <h2 id="sec-bio" className={styles.h2}>About you</h2>
         <p className={styles.hint}>
-          Write in the first person, for example &ldquo;I&rsquo;m ELVAIS&hellip;&rdquo;. Separate paragraphs with a blank line.
+          Write in the first person, for example &ldquo;I&rsquo;m ERVAIS&hellip;&rdquo;. Separate paragraphs with a blank line.
         </p>
         {missing.length > 0 && (
           <p className={styles.warn}>

@@ -7,7 +7,7 @@ import { env } from '@/server/config/env';
 import * as adminRepo from '@/server/repositories/admin.repo';
 import { signToken, verifyToken } from './token';
 
-const ADMIN_COOKIE = 'elvais_admin';
+const ADMIN_COOKIE = 'ervais_admin';
 const ADMIN_MAX_AGE_SECONDS = 7 * 24 * 60 * 60; // 7 days
 
 // A separate key per purpose, derived from the one secret

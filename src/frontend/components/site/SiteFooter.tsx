@@ -46,7 +46,7 @@ export default function SiteFooter({ profile }: { profile: SiteProfile }) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {home('whatsappElvais')}
+                {home('whatsappErvais')}
               </a>
             </li>
             <li><PinIcon /><span>{t('location')}</span></li>

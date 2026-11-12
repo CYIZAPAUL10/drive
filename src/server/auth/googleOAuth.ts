@@ -8,7 +8,7 @@ const AUTH_URL = 'https://accounts.google.com/o/oauth2/v2/auth';
 const TOKEN_URL = 'https://oauth2.googleapis.com/token';
 const JWKS_URL = 'https://www.googleapis.com/oauth2/v3/certs';
 
-export const GOOGLE_COOKIE = 'elvais_oauth';
+export const GOOGLE_COOKIE = 'ervais_oauth';
 export const GOOGLE_COOKIE_PATH = '/api/auth/google';
 export const STATE_MAX_AGE_SECONDS = 10 * 60;
 

@@ -24,7 +24,7 @@
       "newPassword": { "label": "New password", "hint": "At least 10 characters." }
     },
     "register": {
-      "metaTitle": "Create an account | ELVAIS",
+      "metaTitle": "Create an account | ERVAIS",
       "title": "Create an <accent>account</accent>",
       "intro": "An account is optional. It fills in your details when you request a ride and lets you see your past requests.",
       "submit": "Create account",
@@ -35,7 +35,7 @@
       "sentText": "If this address can be used, we have sent a link to confirm it. The link works for 24 hours. Check your spam folder if you do not see it."
     },
     "login": {
-      "metaTitle": "Sign in | ELVAIS",
+      "metaTitle": "Sign in | ERVAIS",
       "title": "<accent>Sign in</accent>",
       "intro": "Sign in to see your requests and to fill in your details automatically.",
       "submit": "Sign in",
@@ -51,7 +51,7 @@
       "resendSent": "If this address is waiting for confirmation, we sent a new link."
     },
     "forgot": {
-      "metaTitle": "Forgot your password | ELVAIS",
+      "metaTitle": "Forgot your password | ERVAIS",
       "title": "Forgot your <accent>password</accent>?",
       "intro": "Enter your email and we will send a link to choose a new password.",
       "submit": "Send the link",
@@ -61,7 +61,7 @@
       "back": "Back to sign in"
     },
     "reset": {
-      "metaTitle": "Choose a new password | ELVAIS",
+      "metaTitle": "Choose a new password | ERVAIS",
       "title": "Choose a new <accent>password</accent>",
       "intro": "Enter a new password for your account.",
       "submit": "Save new password",
@@ -71,7 +71,7 @@
       "requestNew": "Ask for a new link"
     },
     "verify": {
-      "metaTitle": "Confirm your email | ELVAIS",
+      "metaTitle": "Confirm your email | ERVAIS",
       "okTitle": "Email <accent>confirmed</accent>",
       "okText": "Your account is ready. Sign in to continue. Requests you made earlier with this email address now appear in your account.",
       "invalidTitle": "This link <accent>no longer works</accent>",
@@ -79,7 +79,7 @@
       "signIn": "Sign in"
     },
     "requests": {
-      "metaTitle": "My requests | ELVAIS",
+      "metaTitle": "My requests | ERVAIS",
       "title": "My <accent>requests</accent>",
       "intro": "Your latest ride requests and where they stand.",
       "empty": "You have no requests yet.",
@@ -94,10 +94,10 @@
         "COMPLETED": "Completed",
         "CANCELLED": "Cancelled"
       },
-      "note": "Questions about a request? Call or WhatsApp ELVAIS and mention the reference code."
+      "note": "Questions about a request? Call or WhatsApp ERVAIS and mention the reference code."
     },
     "settings": {
-      "metaTitle": "Settings | ELVAIS",
+      "metaTitle": "Settings | ERVAIS",
       "title": "Account <accent>settings</accent>",
       "detailsTitle": "Your details",
       "deleteTitle": "Delete my account",

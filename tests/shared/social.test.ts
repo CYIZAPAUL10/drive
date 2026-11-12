@@ -5,15 +5,15 @@ import { customerEditSchema, customerDeleteSchema } from '@/shared/schemas/custo
 
 describe('validateSocialUrl', () => {
   it('accepts a normal page and adds https when it is missing', () => {
-    expect(validateSocialUrl('facebook', 'facebook.com/elvais.taxi')).toEqual({ ok: true, url: 'https://facebook.com/elvais.taxi' });
+    expect(validateSocialUrl('facebook', 'facebook.com/ervais.taxi')).toEqual({ ok: true, url: 'https://facebook.com/ervais.taxi' });
   });
   it('accepts www and mobile subdomains, and upgrades http', () => {
-    expect(validateSocialUrl('instagram', 'https://www.instagram.com/elvais').ok).toBe(true);
-    expect(validateSocialUrl('facebook', 'https://m.facebook.com/elvais').ok).toBe(true);
-    expect(validateSocialUrl('youtube', 'http://youtube.com/@elvais')).toEqual({ ok: true, url: 'https://youtube.com/@elvais' });
+    expect(validateSocialUrl('instagram', 'https://www.instagram.com/ervais').ok).toBe(true);
+    expect(validateSocialUrl('facebook', 'https://m.facebook.com/ervais').ok).toBe(true);
+    expect(validateSocialUrl('youtube', 'http://youtube.com/@ervais')).toEqual({ ok: true, url: 'https://youtube.com/@ervais' });
   });
   it('drops the #fragment', () => {
-    expect(validateSocialUrl('x', 'https://x.com/elvais#top')).toEqual({ ok: true, url: 'https://x.com/elvais' });
+    expect(validateSocialUrl('x', 'https://x.com/ervais#top')).toEqual({ ok: true, url: 'https://x.com/ervais' });
   });
   it.each([
     'javascript:alert(1)',
@@ -28,19 +28,19 @@ describe('validateSocialUrl', () => {
     expect(validateSocialUrl('facebook', input).ok).toBe(false);
   });
   it('rejects an address from the wrong platform', () => {
-    expect(validateSocialUrl('instagram', 'https://facebook.com/elvais').ok).toBe(false);
+    expect(validateSocialUrl('instagram', 'https://facebook.com/ervais').ok).toBe(false);
   });
 });
 
 describe('parseSocialForm', () => {
   it('saves filled boxes and removes blank ones', () => {
-    const result = parseSocialForm({ facebook: 'facebook.com/elvais', instagram: '   ' });
-    expect(result.entries).toEqual([{ platform: 'facebook', url: 'https://facebook.com/elvais' }]);
+    const result = parseSocialForm({ facebook: 'facebook.com/ervais', instagram: '   ' });
+    expect(result.entries).toEqual([{ platform: 'facebook', url: 'https://facebook.com/ervais' }]);
     expect(result.removals).toContain('instagram');
     expect(result.errors).toEqual({});
   });
   it('reports an error for each bad box', () => {
-    const result = parseSocialForm({ x: 'https://evil.com/x', tiktok: 'tiktok.com/@elvais' });
+    const result = parseSocialForm({ x: 'https://evil.com/x', tiktok: 'tiktok.com/@ervais' });
     expect(Object.keys(result.errors)).toEqual(['x']);
   });
 });

@@ -1,4 +1,4 @@
-// PLACEHOLDERS. Replace with ELVAIS's real numbers before launch.
+// PLACEHOLDERS. Replace with ERVAIS's real numbers before launch.
 export const CONTACT = {
   phone: '+250700000000',          // for tel: links
   phoneDisplay: '+250 700 000 000', // shown on the page

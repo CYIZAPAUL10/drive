@@ -14,7 +14,7 @@ const SAFE_EMAIL = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*\.[A-Za-z]
 
 /**
  * A mailto link only for plain addresses. Text a visitor typed, such as "a@b.com?bcc=x@y.com",
- * must not be able to add extra headers to the email ELVAIS opens.
+ * must not be able to add extra headers to the email ERVAIS opens.
  */
 export function safeMailto(email: string): string | null {
   return SAFE_EMAIL.test(email) ? `mailto:${email}` : null;

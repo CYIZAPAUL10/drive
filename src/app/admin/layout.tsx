@@ -7,7 +7,7 @@ import '@/frontend/styles/global.css';
 const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: { default: 'ELVAIS Admin', template: '%s | ELVAIS Admin' },
+  title: { default: 'ERVAIS Admin', template: '%s | ERVAIS Admin' },
   robots: { index: false, follow: false },
 };
 

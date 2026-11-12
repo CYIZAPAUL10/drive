@@ -10,7 +10,7 @@ const schema = z.object({
   REMINDER_AFTER_MINUTES: z.coerce.number().int().min(1).default(30),
   APP_URL: z.string().min(1).default('http://localhost:3000'),
   RESEND_API_KEY: z.string().optional(),
-  EMAIL_FROM: z.string().min(3).default('ELVAIS <onboarding@resend.dev>'),
+  EMAIL_FROM: z.string().min(3).default('ERVAIS <onboarding@resend.dev>'),
   EMAIL_TO_OVERRIDE: z.string().optional(),
   CRON_SECRET: z.string().optional(),
   GOOGLE_CLIENT_ID: z.string().optional(),

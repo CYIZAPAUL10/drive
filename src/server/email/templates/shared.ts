@@ -51,7 +51,7 @@ export function shell(opts: { lang: string; title: string; preheader: string; bo
 <span style="display:none;max-height:0;overflow:hidden;opacity:0;">${esc(opts.preheader)}</span>
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f5f6f8;"><tr><td align="center" style="padding:24px 12px;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;background:#ffffff;border-radius:8px;overflow:hidden;">
-<tr><td style="background:#1a1a1a;padding:20px 24px;"><span style="font-family:Georgia,'Times New Roman',serif;font-size:26px;font-weight:bold;letter-spacing:1px;color:#ffffff;">ELVAIS</span></td></tr>
+<tr><td style="background:#1a1a1a;padding:20px 24px;"><span style="font-family:Georgia,'Times New Roman',serif;font-size:26px;font-weight:bold;letter-spacing:1px;color:#ffffff;">ERVAIS</span></td></tr>
 <tr><td style="height:4px;background:#f8ca11;font-size:0;line-height:0;">&nbsp;</td></tr>
 <tr><td style="padding:24px;font-size:16px;line-height:1.5;">${opts.body}</td></tr>
 <tr><td style="padding:16px 24px;background:#f5f6f8;font-size:13px;line-height:1.4;color:#4b5563;">${opts.footer}</td></tr>

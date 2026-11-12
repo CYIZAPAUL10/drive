@@ -35,7 +35,7 @@ export default function ReceivedPage({ referenceCode, profile }: { referenceCode
 
           <div className={styles.actions}>
             <Button href={`tel:${profile.phone}`} external variant="secondary" icon={<PhoneIcon />}>
-              {home('callElvais')}
+              {home('callErvais')}
             </Button>
             <Button
               href={whatsappUrl(t('whatsappPrefill', { ref: referenceCode }), profile.whatsappDigits)}
@@ -44,7 +44,7 @@ export default function ReceivedPage({ referenceCode, profile }: { referenceCode
               variant="secondary"
               icon={<WhatsAppIcon />}
             >
-              {home('whatsappElvais')}
+              {home('whatsappErvais')}
             </Button>
             <Button href="/">{t('backHome')}</Button>
           </div>

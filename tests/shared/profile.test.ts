@@ -6,11 +6,11 @@ import { collectFieldErrors } from '@/shared/schemas/booking.schema';
 const valid = {
   phone: '0781234567',
   whatsapp: '+250781234567',
-  email: 'elvais@example.com',
+  email: 'ervais@example.com',
   capacity: '4',
   years: '8',
   languages: ['rw', 'en'],
-  bioEn: 'I am ELVAIS.',
+  bioEn: 'I am ERVAIS.',
   bioRw: '',
   bioFr: '',
 };

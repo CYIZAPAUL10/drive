@@ -15,7 +15,7 @@ export default function AboutDriver({ profile }: { profile: SiteProfile }) {
   const languages = profile.languages.map((code) => names.of(code) ?? code);
   const languageList = new Intl.ListFormat(locale, { style: 'long', type: 'conjunction' }).format(languages);
 
-  // ELVAIS's own bio if he wrote one; otherwise the default text from the message files
+  // ERVAIS's own bio if he wrote one; otherwise the default text from the message files
   const paragraphs = profile.bio
     ? profile.bio.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean)
     : [];

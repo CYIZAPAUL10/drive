@@ -18,7 +18,7 @@ export default function CtaBand({ profile }: { profile: SiteProfile }) {
         </div>
         <div className={styles.actions}>
           <Button href="/book" variant="dark" icon={<CalendarIcon />}>{home('requestRide')}</Button>
-          <Button href={`tel:${profile.phone}`} external variant="secondary" icon={<PhoneIcon />}>{home('callElvais')}</Button>
+          <Button href={`tel:${profile.phone}`} external variant="secondary" icon={<PhoneIcon />}>{home('callErvais')}</Button>
           <Button
             href={whatsappUrl(home('whatsappPrefill'), profile.whatsappDigits)}
             external
@@ -26,7 +26,7 @@ export default function CtaBand({ profile }: { profile: SiteProfile }) {
             variant="secondary"
             icon={<WhatsAppIcon />}
           >
-            {home('whatsappElvais')}
+            {home('whatsappErvais')}
           </Button>
         </div>
       </div>

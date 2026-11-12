@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "ELVAIS | Umushoferi wa taxi i Kigali",
-    "description": "Saba ELVAIS, umushoferi wa taxi w'umwuga i Kigali mu Rwanda, kugutwara. Ku kibuga cy'indege, mu mujyi, hanze ya Kigali no mu ngendo z'ubukerarugendo."
+    "title": "ERVAIS | Umushoferi wa taxi i Kigali",
+    "description": "Saba ERVAIS, umushoferi wa taxi w'umwuga i Kigali mu Rwanda, kugutwara. Ku kibuga cy'indege, mu mujyi, hanze ya Kigali no mu ngendo z'ubukerarugendo."
   },
   "Layout": {
     "skipToContent": "Simbukira ku bikubiyemo by'ingenzi",
@@ -14,16 +14,16 @@
     "navBook": "Saba urugendo"
   },
   "Home": {
-    "heroTitle": "Menya <accent>ELVAIS</accent>",
-    "intro": "ELVAIS ni umushoferi wa taxi w'umwuga w'i Kigali. Uransaba, nkuhamagara cyangwa nkakwandikira kuri WhatsApp, tukumvikana, hanyuma nkaza kugutwara.",
+    "heroTitle": "Menya <accent>ERVAIS</accent>",
+    "intro": "ERVAIS ni umushoferi wa taxi w'umwuga w'i Kigali. Uransaba, nkuhamagara cyangwa nkakwandikira kuri WhatsApp, tukumvikana, hanyuma nkaza kugutwara.",
     "benefit1": "Wizewe kandi ugera ku gihe",
     "benefit2": "Imodoka ifite isuku kandi yorohereza",
     "benefit3": "Menya Kigali neza, ingendo zitekanye",
     "requestRide": "Saba urugendo",
-    "callElvais": "Hamagara ELVAIS",
-    "whatsappElvais": "WhatsApp ELVAIS",
-    "whatsappPrefill": "Muraho ELVAIS, nifuza gusaba urugendo.",
-    "portraitAlt": "Ifoto ya ELVAIS, umushoferi wawe",
+    "callErvais": "Hamagara ERVAIS",
+    "whatsappErvais": "WhatsApp ERVAIS",
+    "whatsappPrefill": "Muraho ERVAIS, nifuza gusaba urugendo.",
+    "portraitAlt": "Ifoto ya ERVAIS, umushoferi wawe",
     "bookNow": "Saba ubu"
   },
   "Services": {
@@ -55,20 +55,20 @@
   "HowItWorks": {
     "title": "Uko <accent>bikora</accent>",
     "step1": "Ohereza ubusabe bwawe kuri interineti.",
-    "step2": "ELVAIS aguhamagara cyangwa akakwandikira kuri WhatsApp.",
+    "step2": "ERVAIS aguhamagara cyangwa akakwandikira kuri WhatsApp.",
     "step3": "Mwumvikane ku bisobanuro maze ugende neza."
   },
   "About": {
-    "title": "Ibyerekeye <accent>ELVAIS</accent>",
-    "bio": "Ndi ELVAIS, umushoferi wa taxi w'umwuga i Kigali. Waba ugeze ku kibuga cy'indege, ugenda mu mujyi cyangwa ujya hanze ya Kigali, tuvugana kandi tukumvikana ku bisobanuro mbere y'urugendo.",
+    "title": "Ibyerekeye <accent>ERVAIS</accent>",
+    "bio": "Ndi ERVAIS, umushoferi wa taxi w'umwuga i Kigali. Waba ugeze ku kibuga cy'indege, ugenda mu mujyi cyangwa ujya hanze ya Kigali, tuvugana kandi tukumvikana ku bisobanuro mbere y'urugendo.",
     "experience": "{years, plural, other {Uburambe bw'imyaka #}}",
     "languages": "Indimi mvuga: {list}",
     "areas": "Kigali no mu ngendo hirya no hino mu Rwanda",
-    "vehicleAlt": "Imodoka ya ELVAIS"
+    "vehicleAlt": "Imodoka ya ERVAIS"
   },
   "CtaBand": {
     "title": "Witeguye kugenda?",
-    "text": "Ohereza ubusabe, ELVAIS azaguhamagara kugira ngo mwemeranye ku bisobanuro n'igiciro. Nta kwishyura kuri interineti bikenewe."
+    "text": "Ohereza ubusabe, ERVAIS azaguhamagara kugira ngo mwemeranye ku bisobanuro n'igiciro. Nta kwishyura kuri interineti bikenewe."
   },
   "Footer": {
     "brandBlurb": "Umushoferi wa taxi wihariye i Kigali. Ku kibuga cy'indege, mu mujyi, hanze ya Kigali no mu ngendo z'ubukerarugendo.",
@@ -79,7 +79,9 @@
     "privacy": "Ibanga",
     "location": "Kigali, u Rwanda",
     "availability": "Turakora amasaha 24 kuri 24",
-    "copyright": "© ELVAIS. Uburenganzira bwose burafitwe."
-  }
+    "copyright": "© ERVAIS. Uburenganzira bwose burafitwe."
+  },
+  "pauseVideo": "Hagarika videwo",
+"playVideo": "Tangiza videwo"
  
 }

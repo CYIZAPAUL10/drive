@@ -24,7 +24,7 @@
       "newPassword": { "label": "Nouveau mot de passe", "hint": "Au moins 10 caractères." }
     },
     "register": {
-      "metaTitle": "Créer un compte | ELVAIS",
+      "metaTitle": "Créer un compte | ERVAIS",
       "title": "Créer un <accent>compte</accent>",
       "intro": "Un compte est facultatif. Il remplit vos informations lors d'une demande de course et vous permet de voir vos demandes passées.",
       "submit": "Créer le compte",
@@ -35,7 +35,7 @@
       "sentText": "Si cette adresse peut être utilisée, nous avons envoyé un lien pour la confirmer. Le lien est valable 24 heures. Vérifiez vos courriers indésirables si vous ne le voyez pas."
     },
     "login": {
-      "metaTitle": "Connexion | ELVAIS",
+      "metaTitle": "Connexion | ERVAIS",
       "title": "<accent>Connexion</accent>",
       "intro": "Connectez-vous pour voir vos demandes et remplir vos informations automatiquement.",
       "submit": "Se connecter",
@@ -51,7 +51,7 @@
       "resendSent": "Si cette adresse attend une confirmation, nous avons envoyé un nouveau lien."
     },
     "forgot": {
-      "metaTitle": "Mot de passe oublié | ELVAIS",
+      "metaTitle": "Mot de passe oublié | ERVAIS",
       "title": "Mot de passe <accent>oublié</accent> ?",
       "intro": "Saisissez votre e-mail et nous vous enverrons un lien pour choisir un nouveau mot de passe.",
       "submit": "Envoyer le lien",
@@ -61,7 +61,7 @@
       "back": "Retour à la connexion"
     },
     "reset": {
-      "metaTitle": "Nouveau mot de passe | ELVAIS",
+      "metaTitle": "Nouveau mot de passe | ERVAIS",
       "title": "Choisir un nouveau <accent>mot de passe</accent>",
       "intro": "Saisissez un nouveau mot de passe pour votre compte.",
       "submit": "Enregistrer le mot de passe",
@@ -71,7 +71,7 @@
       "requestNew": "Demander un nouveau lien"
     },
     "verify": {
-      "metaTitle": "Confirmation de l'e-mail | ELVAIS",
+      "metaTitle": "Confirmation de l'e-mail | ERVAIS",
       "okTitle": "E-mail <accent>confirmé</accent>",
       "okText": "Votre compte est prêt. Connectez-vous pour continuer. Les demandes faites plus tôt avec cette adresse e-mail apparaissent maintenant dans votre compte.",
       "invalidTitle": "Ce lien <accent>ne fonctionne plus</accent>",
@@ -79,7 +79,7 @@
       "signIn": "Se connecter"
     },
     "requests": {
-      "metaTitle": "Mes demandes | ELVAIS",
+      "metaTitle": "Mes demandes | ERVAIS",
       "title": "Mes <accent>demandes</accent>",
       "intro": "Vos dernières demandes de course et leur état.",
       "empty": "Vous n'avez pas encore de demande.",
@@ -94,10 +94,10 @@
         "COMPLETED": "Terminée",
         "CANCELLED": "Annulée"
       },
-      "note": "Une question sur une demande ? Appelez ou écrivez à ELVAIS sur WhatsApp en indiquant le code de référence."
+      "note": "Une question sur une demande ? Appelez ou écrivez à ERVAIS sur WhatsApp en indiquant le code de référence."
     },
     "settings": {
-      "metaTitle": "Paramètres | ELVAIS",
+      "metaTitle": "Paramètres | ERVAIS",
       "title": "Paramètres du <accent>compte</accent>",
       "detailsTitle": "Vos informations",
       "deleteTitle": "Supprimer mon compte",

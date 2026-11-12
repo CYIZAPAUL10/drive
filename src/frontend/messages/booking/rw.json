@@ -1,9 +1,9 @@
 {
   "Booking": {
-    "metaTitle": "Saba urugendo | ELVAIS",
-    "metaDescription": "Ohereza ubusabe bw'urugendo kuri ELVAIS i Kigali. Azaguhamagara kugira ngo mwemeranye ku bisobanuro n'igiciro.",
+    "metaTitle": "Saba urugendo | ERVAIS",
+    "metaDescription": "Ohereza ubusabe bw'urugendo kuri ERVAIS i Kigali. Azaguhamagara kugira ngo mwemeranye ku bisobanuro n'igiciro.",
     "title": "Saba <accent>urugendo</accent>",
-    "intro": "Bwira ELVAIS iby'urugendo rwawe. Azaguhamagara cyangwa akakwandikira kuri WhatsApp kugira ngo mwemeranye ku bisobanuro n'igiciro.",
+    "intro": "Bwira ERVAIS iby'urugendo rwawe. Azaguhamagara cyangwa akakwandikira kuri WhatsApp kugira ngo mwemeranye ku bisobanuro n'igiciro.",
     "required": "(bikenewe)",
     "optional": "(si ngombwa)",
     "sections": {
@@ -31,11 +31,11 @@
       "passengers": { "label": "Umubare w'abagenzi", "hint": "Kugeza kuri {max}." },
       "notes": { "label": "Icyo wongeraho", "hint": "Urugero imizigo, intebe y'umwana cyangwa nimero y'indege." },
       "preferredContact": {
-        "label": "ELVAIS yakugeraho ate?",
+        "label": "ERVAIS yakugeraho ate?",
         "options": { "call": "Guhamagara kuri telefoni", "whatsapp": "WhatsApp" }
       }
     },
-    "notice": "ELVAIS azaguhamagara kugira ngo mwemeranye ku bisobanuro n'igiciro. Nta kwishyura kuri interineti bikenewe.",
+    "notice": "ERVAIS azaguhamagara kugira ngo mwemeranye ku bisobanuro n'igiciro. Nta kwishyura kuri interineti bikenewe.",
     "crossBorder": "Ingendo zinyura hanze y'u Rwanda ntizitangwa. Ingendo zigomba kuguma mu Rwanda.",
     "submit": "Ohereza ubusabe",
     "submitting": "Birimo koherezwa…",
@@ -56,19 +56,19 @@
       "daysRange": "Andika iminsi kuva kuri {minDays} kugeza kuri {maxDays}.",
       "formExpired": "Iyi fomu yararangiye. Ibyo wanditse biracyahari, ongera ubwohereze.",
       "tryAgain": "Hari ikitagenze neza. Ongera ugerageze kohereza.",
-      "rateLimited": "Ubusabe ni bwinshi cyane buturutse kuri interineti yawe. Tegereza iminota mike, cyangwa uhamagare ELVAIS ku buryo butaziguye cyangwa umwandikire kuri WhatsApp.",
-      "serverError": "Ntitwabashije kubika ubusabe bwawe. Ongera ugerageze, cyangwa uhamagare ELVAIS cyangwa umwandikire kuri WhatsApp."
+      "rateLimited": "Ubusabe ni bwinshi cyane buturutse kuri interineti yawe. Tegereza iminota mike, cyangwa uhamagare ERVAIS ku buryo butaziguye cyangwa umwandikire kuri WhatsApp.",
+      "serverError": "Ntitwabashije kubika ubusabe bwawe. Ongera ugerageze, cyangwa uhamagare ERVAIS cyangwa umwandikire kuri WhatsApp."
     }
   },
   "Received": {
-    "metaTitle": "Ubusabe bwakiriwe | ELVAIS",
+    "metaTitle": "Ubusabe bwakiriwe | ERVAIS",
     "title": "Ubusabe <accent>bwakiriwe</accent>",
-    "lead": "Murakoze. Ubusabe bwawe bw'urugendo bwoherejwe kuri ELVAIS.",
+    "lead": "Murakoze. Ubusabe bwawe bw'urugendo bwoherejwe kuri ERVAIS.",
     "codeLabel": "Kode yawe y'ubusabe",
     "keepCode": "Bika iyi kode igihe ukeneye kuvuga ubusabe bwawe.",
-    "contactText": "ELVAIS azaguhamagara cyangwa akakwandikira kuri WhatsApp kugira ngo mwemeranye ku bisobanuro n'igiciro.",
+    "contactText": "ERVAIS azaguhamagara cyangwa akakwandikira kuri WhatsApp kugira ngo mwemeranye ku bisobanuro n'igiciro.",
     "noPayment": "Nta kwishyura kuri interineti bikenewe.",
-    "whatsappPrefill": "Muraho ELVAIS, kode y'ubusabe bwanjye ni {ref}.",
+    "whatsappPrefill": "Muraho ERVAIS, kode y'ubusabe bwanjye ni {ref}.",
     "backHome": "Subira ahabanza"
   }
 }

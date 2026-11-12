@@ -16,7 +16,7 @@ export default function AdminOverviewPage({ overview }: { overview: Overview }) 
         <section className={styles.card} aria-labelledby="new-requests">
           <h2 id="new-requests" className={styles.label}>New requests</h2>
           <p className={styles.count}>{newRequests}</p>
-          <p className={styles.hint}>Requests ELVAIS has not contacted yet.</p>
+          <p className={styles.hint}>Requests ERVAIS has not contacted yet.</p>
           <p className={styles.links}>
             <Link href="/admin/requests?status=NEW">View new requests</Link>
             {' · '}

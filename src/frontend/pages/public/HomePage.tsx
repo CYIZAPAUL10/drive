@@ -6,6 +6,7 @@ import ServiceList from '@/frontend/components/site/ServiceList';
 import HowItWorks from '@/frontend/components/site/HowItWorks';
 import AboutDriver from '@/frontend/components/site/AboutDriver';
 import CtaBand from '@/frontend/components/site/CtaBand';
+import HeroBackground from '@/frontend/components/site/HeroBackground';
 import { CalendarIcon, PhoneIcon, WhatsAppIcon, CheckCircleIcon } from '@/frontend/components/ui/Icons';
 import { whatsappUrl } from '@/shared/constants/contact';
 import type { SiteProfile } from '@/shared/types/profile';
@@ -18,6 +19,11 @@ export default function HomePage({ profile }: { profile: SiteProfile }) {
   return (
     <>
       <section className={`surface-dark ${styles.hero}`} data-motion="hero">
+        <HeroBackground
+          src="/videos/hero.mp4"
+          poster="/images/hero-poster.jpg"
+          labels={{ pause: t('pauseVideo'), play: t('playVideo') }}
+        />
         <div className={styles.inner}>
           <div>
             <h1 className={styles.title} data-step="1">{t.rich('heroTitle', { accent })}</h1>
@@ -29,7 +35,7 @@ export default function HomePage({ profile }: { profile: SiteProfile }) {
             </ul>
             <div className={styles.actions} data-step="4">
               <Button href="/book" icon={<CalendarIcon />}>{t('requestRide')}</Button>
-              <Button href={`tel:${profile.phone}`} external variant="secondary" icon={<PhoneIcon />}>{t('callElvais')}</Button>
+              <Button href={`tel:${profile.phone}`} external variant="secondary" icon={<PhoneIcon />}>{t('callErvais')}</Button>
               <Button
                 href={whatsappUrl(t('whatsappPrefill'), profile.whatsappDigits)}
                 external
@@ -37,7 +43,7 @@ export default function HomePage({ profile }: { profile: SiteProfile }) {
                 variant="secondary"
                 icon={<WhatsAppIcon />}
               >
-                {t('whatsappElvais')}
+                {t('whatsappErvais')}
               </Button>
             </div>
           </div>

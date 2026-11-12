@@ -1,4 +1,4 @@
-/* ELVAIS motion.
+/* ERVAIS motion.
    Rules: only transform / opacity / translate move. Nothing hides content when JavaScript fails.
    Every animation sits inside "prefers-reduced-motion: no-preference", so people who ask for less
    motion get a still page. */

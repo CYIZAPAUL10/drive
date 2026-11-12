@@ -9,7 +9,7 @@ type Props = {
   className?: string;
 };
 
-export default function Logo({ variant = 'onDark', priority = false, alt = 'ELVAIS', className }: Props) {
+export default function Logo({ variant = 'onDark', priority = false, alt = 'ERVAIS', className }: Props) {
   const logo = LOGO[variant];
   return (
     <Image

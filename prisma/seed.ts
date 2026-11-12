@@ -35,7 +35,7 @@ async function main() {
     update: {},
     create: {
       id: 'singleton',
-      name: 'ELVAIS',
+      name: 'ERVAIS',
       phone: '+250700000000',        // placeholder: set the real number
       whatsappNumber: '250700000000', // placeholder
       email,

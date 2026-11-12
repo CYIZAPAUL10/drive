@@ -24,7 +24,7 @@
       "newPassword": { "label": "Ijambobanga rishya", "hint": "Nibura inyuguti 10." }
     },
     "register": {
-      "metaTitle": "Fungura konti | ELVAIS",
+      "metaTitle": "Fungura konti | ERVAIS",
       "title": "Fungura <accent>konti</accent>",
       "intro": "Konti si ngombwa. Yuzuza amakuru yawe iyo usaba urugendo kandi ikwereka ubusabe bwawe bwashize.",
       "submit": "Fungura konti",
@@ -35,7 +35,7 @@
       "sentText": "Niba iyi mimero ishobora gukoreshwa, twohereje ihuza ryo kuyemeza. Rimara amasaha 24. Reba no mu butumwa bw'ubusa niba utaribona."
     },
     "login": {
-      "metaTitle": "Injira | ELVAIS",
+      "metaTitle": "Injira | ERVAIS",
       "title": "<accent>Injira</accent>",
       "intro": "Injira kugira ngo urebe ubusabe bwawe kandi amakuru yawe yuzuzwe ubwayo.",
       "submit": "Injira",
@@ -51,7 +51,7 @@
       "resendSent": "Niba iyi mimero itegereje kwemezwa, twohereje ihuza rishya."
     },
     "forgot": {
-      "metaTitle": "Wibagiwe ijambobanga | ELVAIS",
+      "metaTitle": "Wibagiwe ijambobanga | ERVAIS",
       "title": "Wibagiwe <accent>ijambobanga</accent>?",
       "intro": "Andika imeri yawe maze tuzakohereza ihuza ryo guhitamo ijambobanga rishya.",
       "submit": "Ohereza ihuza",
@@ -61,7 +61,7 @@
       "back": "Subira ku kwinjira"
     },
     "reset": {
-      "metaTitle": "Hitamo ijambobanga rishya | ELVAIS",
+      "metaTitle": "Hitamo ijambobanga rishya | ERVAIS",
       "title": "Hitamo <accent>ijambobanga</accent> rishya",
       "intro": "Andika ijambobanga rishya rya konti yawe.",
       "submit": "Bika ijambobanga rishya",
@@ -71,7 +71,7 @@
       "requestNew": "Saba ihuza rishya"
     },
     "verify": {
-      "metaTitle": "Emeza imeri | ELVAIS",
+      "metaTitle": "Emeza imeri | ERVAIS",
       "okTitle": "Imeri <accent>yemejwe</accent>",
       "okText": "Konti yawe irarangiye. Injira kugira ngo ukomeze. Ubusabe watanze mbere ukoresheje iyi mimero bugaragara muri konti yawe.",
       "invalidTitle": "Iri huza <accent>ntirigikora</accent>",
@@ -79,7 +79,7 @@
       "signIn": "Injira"
     },
     "requests": {
-      "metaTitle": "Ubusabe bwanjye | ELVAIS",
+      "metaTitle": "Ubusabe bwanjye | ERVAIS",
       "title": "Ubusabe <accent>bwanjye</accent>",
       "intro": "Ubusabe bwawe bw'urugendo bwa vuba n'aho bugeze.",
       "empty": "Nta busabe urabona.",
@@ -94,10 +94,10 @@
         "COMPLETED": "Bwarangiye",
         "CANCELLED": "Bwahagaritswe"
       },
-      "note": "Ufite ikibazo ku busabe? Hamagara ELVAIS cyangwa umwandikire kuri WhatsApp uvuga kode y'ubusabe."
+      "note": "Ufite ikibazo ku busabe? Hamagara ERVAIS cyangwa umwandikire kuri WhatsApp uvuga kode y'ubusabe."
     },
     "settings": {
-      "metaTitle": "Igenamiterere | ELVAIS",
+      "metaTitle": "Igenamiterere | ERVAIS",
       "title": "Igenamiterere rya <accent>konti</accent>",
       "detailsTitle": "Amakuru yawe",
       "deleteTitle": "Siba konti yanjye",

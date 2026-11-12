@@ -14,9 +14,9 @@ export const TRIP_NAMES: Record<string, string> = {
 export const CONTACT_NAMES: Record<string, string> = { call: 'Phone call', whatsapp: 'WhatsApp' };
 export const LANGUAGE_NAMES: Record<string, string> = { en: 'English', rw: 'Kinyarwanda', fr: 'French' };
 export const EMAIL_TYPE_NAMES: Record<string, string> = {
-  new_request: 'Alert to ELVAIS',
+  new_request: 'Alert to ERVAIS',
   customer_confirmation: 'Confirmation to customer',
-  reminder: 'Reminder to ELVAIS',
+  reminder: 'Reminder to ERVAIS',
   alert_summary: 'Summary alert',
   verify_email: 'Email verification',
   password_reset: 'Password reset',

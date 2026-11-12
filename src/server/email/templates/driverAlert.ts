@@ -51,7 +51,7 @@ export function renderDriverAlert(i: AlertInput): Rendered {
     title: subject,
     preheader: `${i.guestName} asked for a ride`,
     body,
-    footer: `Reference ${esc(i.referenceCode)}. This alert was sent because someone used the booking form on the ELVAIS website.`,
+    footer: `Reference ${esc(i.referenceCode)}. This alert was sent because someone used the booking form on the ERVAIS website.`,
   });
 
   const text = [

@@ -4,7 +4,7 @@ import { shell, button, esc, type Rendered } from './shared';
 /** Sent instead of individual alerts when requests arrive faster than the hourly cap. */
 export function renderAlertSummary(input: { count: number; appUrl: string }): Rendered {
   const url = `${input.appUrl.replace(/\/$/, '')}/admin/requests`;
-  const subject = `ELVAIS: ${input.count} ride requests in the last hour`;
+  const subject = `ERVAIS: ${input.count} ride requests in the last hour`;
 
   const body =
     `<h1 style="margin:0 0 8px;font-size:22px;">Many requests in the last hour</h1>` +

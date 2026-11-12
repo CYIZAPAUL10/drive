@@ -1,5 +1,11 @@
-.hero { background: var(--color-dark); padding: var(--space-8) var(--space-4) var(--space-10); }
-.inner { max-width: 72rem; margin-inline: auto; display: grid; gap: var(--space-8); }
+.hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: var(--color-dark);
+  padding: var(--space-8) var(--space-4) var(--space-10);
+}
+.inner { position: relative; z-index: 1; max-width: 72rem; margin-inline: auto; display: grid; gap: var(--space-8); }
 .title { margin: 0; font-size: var(--text-h1); font-weight: 800; line-height: 1.1; }
 .intro { margin: var(--space-4) 0 0; font-size: 1.125rem; color: var(--color-on-dark-muted); }
 .benefits { list-style: none; margin: var(--space-6) 0 0; padding: 0; display: grid; gap: var(--space-3); font-weight: 600; }

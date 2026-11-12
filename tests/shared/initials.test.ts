@@ -8,7 +8,7 @@ describe('initialsOf', () => {
     expect(initialsOf('  marie   louise  uwase ')).toBe('ML');
   });
   it('handles one word, accents and empty names', () => {
-    expect(initialsOf('elvais')).toBe('E');
+    expect(initialsOf('ervais')).toBe('E');
     expect(initialsOf('Émile Zola')).toBe('ÉZ');
     expect(initialsOf('   ')).toBe('?');
   });

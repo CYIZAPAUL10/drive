@@ -29,12 +29,12 @@ type Copy = {
 // Kinyarwanda is a DRAFT and needs a native-speaker review before launch.
 const COPY: Record<Lang, Copy> = {
   en: {
-    subject: (ref) => `ELVAIS: we received your request (${ref})`,
+    subject: (ref) => `ERVAIS: we received your request (${ref})`,
     preheader: 'Your ride request has been received.',
     hello: (name) => `Hello ${name},`,
     intro: 'Thank you. Your ride request has been received.',
     refLabel: 'Your reference code',
-    next: 'ELVAIS will contact you to confirm the details and agree the price. No online payment is required.',
+    next: 'ERVAIS will contact you to confirm the details and agree the price. No online payment is required.',
     tripTitle: 'Your request',
     rows: { service: 'Service', trip: 'Trip', from: 'From', to: 'To', when: 'When (Kigali time)', passengers: 'Passengers', contact: 'Preferred contact' },
     days: (n) => `${n} days`,
@@ -42,12 +42,12 @@ const COPY: Record<Lang, Copy> = {
     locale: 'en-GB',
   },
   fr: {
-    subject: (ref) => `ELVAIS : demande reçue (${ref})`,
+    subject: (ref) => `ERVAIS : demande reçue (${ref})`,
     preheader: 'Votre demande de course a bien été reçue.',
     hello: (name) => `Bonjour ${name},`,
     intro: 'Merci. Votre demande de course a bien été reçue.',
     refLabel: 'Votre code de référence',
-    next: "ELVAIS vous contactera pour confirmer les détails et convenir du prix. Aucun paiement en ligne n'est requis.",
+    next: "ERVAIS vous contactera pour confirmer les détails et convenir du prix. Aucun paiement en ligne n'est requis.",
     tripTitle: 'Votre demande',
     rows: { service: 'Service', trip: 'Trajet', from: 'Départ', to: 'Destination', when: 'Date et heure (heure de Kigali)', passengers: 'Passagers', contact: 'Contact souhaité' },
     days: (n) => `${n} jours`,
@@ -55,12 +55,12 @@ const COPY: Record<Lang, Copy> = {
     locale: 'fr-FR',
   },
   rw: {
-    subject: (ref) => `ELVAIS: ubusabe bwawe bwakiriwe (${ref})`,
+    subject: (ref) => `ERVAIS: ubusabe bwawe bwakiriwe (${ref})`,
     preheader: "Ubusabe bwawe bw'urugendo bwakiriwe.",
     hello: (name) => `Muraho ${name},`,
     intro: "Murakoze. Ubusabe bwawe bw'urugendo bwakiriwe.",
     refLabel: "Kode yawe y'ubusabe",
-    next: "ELVAIS azaguhamagara kugira ngo mwemeranye ku bisobanuro n'igiciro. Nta kwishyura kuri interineti bikenewe.",
+    next: "ERVAIS azaguhamagara kugira ngo mwemeranye ku bisobanuro n'igiciro. Nta kwishyura kuri interineti bikenewe.",
     tripTitle: 'Ubusabe bwawe',
     rows: { service: 'Serivisi', trip: 'Urugendo', from: 'Aho utangirira', to: 'Aho ugiye', when: "Itariki n'isaha (igihe cya Kigali)", passengers: 'Abagenzi', contact: 'Uburyo ushaka ko akugeraho' },
     days: (n) => `iminsi ${n}`,
@@ -97,7 +97,7 @@ export function renderCustomerConfirmation(i: ConfirmationInput): Rendered {
     title: subject,
     preheader: c.preheader,
     body,
-    footer: `${esc(c.footer)}<br>ELVAIS, Kigali, Rwanda`,
+    footer: `${esc(c.footer)}<br>ERVAIS, Kigali, Rwanda`,
   });
 
   const text = [
