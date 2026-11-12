@@ -1,0 +1,30 @@
+.hero { background: var(--color-dark); padding: var(--space-8) var(--space-4); }
+.inner { max-width: 40rem; margin-inline: auto; }
+.check { display: inline-flex; color: var(--color-yellow); }
+.check svg { width: 3rem; height: 3rem; }
+.title { margin: var(--space-2) 0 var(--space-3); font-size: var(--text-h1); font-weight: 800; line-height: 1.15; }
+.lead { margin: 0; color: var(--color-on-dark-muted); }
+
+.body { padding: var(--space-8) var(--space-4); }
+.body .inner { display: grid; gap: var(--space-4); }
+.body p { margin: 0; }
+.strong { font-weight: 700; }
+
+.codeBox {
+  padding: var(--space-6);
+  text-align: center;
+  background: var(--color-surface);
+  border: 3px solid var(--color-dark);
+  border-radius: var(--radius);
+}
+.codeLabel { font-weight: 700; margin-bottom: var(--space-2) !important; }
+.code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: clamp(1.75rem, 1.2rem + 3vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+.keep { margin-top: var(--space-2) !important; font-size: var(--text-small); color: var(--color-text-muted); }
+
+.actions { display: grid; gap: var(--space-3); margin-top: var(--space-4); }
+@media (min-width: 40rem) { .actions { grid-template-columns: repeat(3, 1fr); } }

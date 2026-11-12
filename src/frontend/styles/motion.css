@@ -1,0 +1,109 @@
+/* ELVAIS motion.
+   Rules: only transform / opacity / translate move. Nothing hides content when JavaScript fails.
+   Every animation sits inside "prefers-reduced-motion: no-preference", so people who ask for less
+   motion get a still page. */
+
+@keyframes rise {
+  from { opacity: 0; translate: 0 1rem; }
+  to { opacity: 1; translate: 0 0; }
+}
+@keyframes slide-up {
+  from { translate: 0 1.25rem; }
+  to { translate: 0 0; }
+}
+@keyframes pop {
+  from { opacity: 0; translate: 0 -0.375rem; }
+  to { opacity: 1; translate: 0 0; }
+}
+@keyframes reveal {
+  from { opacity: 0; translate: 0 1.5rem; }
+  to { opacity: 1; translate: 0 0; }
+}
+@keyframes drive {
+  from { translate: -110px 0; }
+  to { translate: calc(100% - 96px) 0; }
+}
+
+/* ---- Form fields: a soft glow on focus (the focus outline stays too) ---- */
+input,
+select,
+textarea {
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--color-focus);
+  box-shadow: 0 0 0 3px rgb(37 99 235 / 0.2);
+}
+
+/* ---- Service cards: transition set-up (the lift itself is below, only with motion allowed) ---- */
+#services li {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* 9. Smooth scrolling to #services, #how, #about (the sticky-header offset is set in global.css) */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* 1. Hero entrance: the text rises in one piece after another. The photo only slides, it does not
+        fade, so it still counts as loaded straight away. */
+  [data-motion='hero'] [data-step] {
+    animation: rise 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  [data-motion='hero'] [data-step='1'] { animation-delay: 0ms; }
+  [data-motion='hero'] [data-step='2'] { animation-delay: 80ms; }
+  [data-motion='hero'] [data-step='3'] { animation-delay: 160ms; }
+  [data-motion='hero'] [data-step='4'] { animation-delay: 240ms; }
+  [data-motion='hero'] [data-step='media'] {
+    animation-name: slide-up;
+    animation-delay: 120ms;
+  }
+
+  /* 3. Cards lift when hovered with a mouse */
+  @media (hover: hover) {
+    #services li:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 24px rgb(0 0 0 / 0.35);
+    }
+  }
+
+  /* 5. Menus (language, account, mobile): fade and slide in when opened */
+  details[open] > :not(summary) {
+    animation: pop 0.16s ease-out both;
+  }
+
+  /* 7. Error boxes ease in. They never shake. */
+  [role='alert'] {
+    animation: rise 0.28s ease-out both;
+  }
+
+  /* 4. The reference code fades in after the check mark has been drawn */
+  [data-motion='code'] {
+    animation: rise 0.5s ease-out 0.45s both;
+  }
+}
+
+/* 2. Scroll reveal and 8. the taxi: tied to scrolling, so no JavaScript and nothing runs on its own */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    #services li,
+    #how li,
+    #about > div > * {
+      animation: reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 50%;
+    }
+
+    [data-motion='cta'] {
+      view-timeline: --cta block;
+    }
+    [data-motion='driver'] {
+      animation: drive linear both;
+      animation-timeline: --cta;
+      animation-range: entry 95% cover 55%;
+    }
+  }
+}

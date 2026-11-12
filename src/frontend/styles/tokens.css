@@ -1,0 +1,49 @@
+:root {
+  /* Ratios computed by script. Rule: never use yellow as text on a light
+     background (1.56:1) and never white text on yellow. */
+  --color-dark: #1a1a1a;          /* white on it: 17.4:1 */
+  --color-deep: #161c1e;          /* services band */
+  --color-footer: #292828;        /* #ebebeb on it: 12.3:1 */
+  --color-yellow: #f8ca11;        /* charcoal on yellow: 11.2:1, yellow on dark: 11.2:1 */
+  --color-yellow-hover: #ffd83d;
+  --color-on-yellow: #1a1a1a;
+  --color-on-dark: #ffffff;
+  --color-on-dark-muted: #d1d5db; /* 11.8:1 on #1a1a1a */
+
+  --color-bg: #ffffff;
+  --color-surface: #f5f6f8;
+  --color-text: #1a1a1a;          /* 17.4:1 */
+  --color-text-muted: #4b5563;    /* 7.6:1 on white */
+  --color-border: #6b7280;        /* 4.8:1, inputs */
+  --color-divider: #d1d5db;       /* decorative only */
+  --color-error: #b91c1c;         /* 6.5:1 */
+  --color-error-bg: #fef2f2;
+  --color-success: #15803d;       /* 5.0:1 */
+  --color-link: #1d4ed8;          /* 6.7:1 on white */
+  --color-focus: #2563eb;         /* 5.2:1 on white */
+
+  /* Surface-aware values. Dark sections override these (see global.css) */
+  --on-surface: var(--color-text);
+  --focus: var(--color-focus);
+
+  --font-body: var(--font-inter), system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+
+  --text-small: 0.875rem;
+  --text-body: 1rem;
+  --text-large: 1.25rem;
+  --text-h1: clamp(2rem, 1.4rem + 3vw, 3.25rem);
+  --text-h2: clamp(1.75rem, 1.3rem + 2vw, 2.5rem);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  --radius: 0.625rem;
+  --target-min: 2.75rem;          /* 44px */
+  --target-comfortable: 3rem;     /* 48px */
+}

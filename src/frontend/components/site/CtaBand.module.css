@@ -1,0 +1,15 @@
+.band {
+  background: var(--color-yellow);
+  color: var(--color-on-yellow);
+  padding: var(--space-10) var(--space-4);
+  /* Yellow surface: dark focus ring and dark outlined buttons */
+  --focus: var(--color-on-yellow);
+  --on-surface: var(--color-on-yellow);
+}
+.inner { max-width: 72rem; margin-inline: auto; display: grid; gap: var(--space-6); }
+.title { margin: 0 0 var(--space-2); font-size: var(--text-h2); font-weight: 800; }
+.text { margin: 0; max-width: 36rem; }
+.actions { display: grid; gap: var(--space-3); }
+@media (min-width: 48rem) {
+  .inner { grid-template-columns: 1.2fr 1fr; align-items: center; gap: var(--space-8); }
+}

@@ -1,0 +1,74 @@
+{
+  "Booking": {
+    "metaTitle": "Demander une course | ELVAIS",
+    "metaDescription": "Envoyez une demande de course à ELVAIS à Kigali. Il vous contactera pour confirmer les détails et convenir du prix.",
+    "title": "Demander une <accent>course</accent>",
+    "intro": "Parlez à ELVAIS de votre trajet. Il vous contactera par appel ou WhatsApp pour confirmer les détails et convenir du prix.",
+    "required": "(obligatoire)",
+    "optional": "(facultatif)",
+    "sections": {
+      "contact": "Vos coordonnées",
+      "trip": "Votre trajet",
+      "details": "Informations complémentaires"
+    },
+    "fields": {
+      "fullName": { "label": "Nom complet" },
+      "phone": {
+        "label": "Numéro de téléphone",
+        "hint": "Les numéros rwandais peuvent s'écrire 078 123 4567. Depuis l'étranger, commencez par + et l'indicatif de votre pays."
+      },
+      "email": { "label": "E-mail", "hint": "Seulement si vous souhaitez une confirmation par e-mail." },
+      "service": { "label": "Service", "placeholder": "Choisissez un service" },
+      "tripType": {
+        "label": "Type de trajet",
+        "options": { "one_way": "Aller simple", "round_trip": "Aller-retour", "multi_day": "Plusieurs jours" }
+      },
+      "numberOfDays": { "label": "Nombre de jours", "hint": "De 2 à 30 jours." },
+      "pickup": { "label": "Lieu de prise en charge", "hint": "Adresse, hôtel ou point de repère." },
+      "destination": { "label": "Destination" },
+      "date": { "label": "Date" },
+      "time": { "label": "Heure", "hint": "Heure de Kigali." },
+      "passengers": { "label": "Nombre de passagers", "hint": "Jusqu'à {max}." },
+      "notes": { "label": "Remarques", "hint": "Par exemple bagages, siège enfant ou numéro de vol." },
+      "preferredContact": {
+        "label": "Comment ELVAIS doit-il vous contacter ?",
+        "options": { "call": "Appel téléphonique", "whatsapp": "WhatsApp" }
+      }
+    },
+    "notice": "ELVAIS vous contactera pour confirmer les détails et convenir du prix. Aucun paiement en ligne n'est requis.",
+    "crossBorder": "Les trajets transfrontaliers ne sont pas proposés. Les trajets doivent rester au Rwanda.",
+    "submit": "Envoyer la demande",
+    "submitting": "Envoi en cours…",
+    "summaryTitle": "Veuillez corriger les points suivants pour continuer",
+    "formErrorTitle": "Votre demande n'a pas été envoyée",
+    "errors": {
+      "required": "Ce champ est obligatoire.",
+      "tooShort": "Ce champ est trop court.",
+      "tooLong": "Ce champ est trop long.",
+      "invalidPhone": "Saisissez un numéro de téléphone valide.",
+      "invalidEmail": "Saisissez une adresse e-mail valide, par exemple nom@exemple.com.",
+      "invalidDate": "Choisissez une date valide.",
+      "invalidTime": "Choisissez une heure valide.",
+      "pastDateTime": "Cette date et cette heure sont déjà passées. Choisissez un moment ultérieur.",
+      "tooFar": "Choisissez une date dans l'année à venir.",
+      "invalidNumber": "Saisissez un nombre entier.",
+      "passengersRange": "Saisissez un nombre de 1 à {max}.",
+      "daysRange": "Saisissez un nombre de jours de {minDays} à {maxDays}.",
+      "formExpired": "Ce formulaire a expiré. Vos réponses sont conservées, veuillez l'envoyer de nouveau.",
+      "tryAgain": "Un problème est survenu. Veuillez réessayer l'envoi.",
+      "rateLimited": "Trop de demandes depuis votre connexion. Patientez quelques minutes, ou appelez ELVAIS directement ou écrivez-lui sur WhatsApp.",
+      "serverError": "Nous n'avons pas pu enregistrer votre demande. Veuillez réessayer, ou appeler ELVAIS directement ou lui écrire sur WhatsApp."
+    }
+  },
+  "Received": {
+    "metaTitle": "Demande reçue | ELVAIS",
+    "title": "Demande <accent>reçue</accent>",
+    "lead": "Merci. Votre demande de course a été envoyée à ELVAIS.",
+    "codeLabel": "Votre code de référence",
+    "keepCode": "Conservez ce code au cas où vous devriez mentionner votre demande.",
+    "contactText": "ELVAIS vous contactera par appel ou WhatsApp pour confirmer les détails et convenir du prix.",
+    "noPayment": "Aucun paiement en ligne n'est requis.",
+    "whatsappPrefill": "Bonjour ELVAIS, la référence de ma demande est {ref}.",
+    "backHome": "Retour à l'accueil"
+  }
+}

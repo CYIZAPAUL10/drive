@@ -1,0 +1,86 @@
+{
+  "Meta": {
+    "title": "ELVAIS | Taxi driver in Kigali",
+    "description": "Book a ride with ELVAIS, a professional taxi driver in Kigali, Rwanda. Airport transfers, city rides, trips outside Kigali and tours."
+  },
+  "Layout": {
+    "skipToContent": "Skip to main content",
+    "languageNav": "Language",
+    "mainNav": "Main",
+    "menu": "Menu",
+    "navServices": "Services",
+    "navHow": "How it works",
+    "navAbout": "About",
+    "navBook": "Request a ride"
+  },
+  "Home": {
+    "heroTitle": "Meet <accent>ELVAIS</accent>",
+    "intro": "ELVAIS is a local, professional taxi service. You request, I call or WhatsApp you, we agree, and I pick you up.",
+    "benefit1": "Reliable and on time",
+    "benefit2": "Clean and comfortable vehicle",
+    "benefit3": "Local knowledge, safe rides",
+    "requestRide": "Request a Ride",
+    "callElvais": "Call ELVAIS",
+    "whatsappElvais": "WhatsApp ELVAIS",
+    "whatsappPrefill": "Hello ELVAIS, I'd like to book a ride.",
+    "portraitAlt": "Portrait of ELVAIS, your driver",
+    "bookNow": "Book now"
+  },
+  "Services": {
+    "title": "Our <accent>services</accent>",
+    "requestService": "Request this service",
+    "items": {
+      "airport": {
+        "name": "Airport transfer",
+        "description": "Pickup and drop-off at Kigali International Airport."
+      },
+      "city": {
+        "name": "City rides",
+        "description": "Rides anywhere in Kigali, for work, errands or an evening out."
+      },
+      "outside": {
+        "name": "Trips outside Kigali",
+        "description": "Day trips and longer journeys within Rwanda."
+      },
+      "tours": {
+        "name": "Tours",
+        "description": "Sightseeing around Kigali and beyond, at your pace."
+      },
+      "corporate": {
+        "name": "Corporate and regular service",
+        "description": "Regular rides for staff and guests, arranged ahead of time."
+      }
+    }
+  },
+  "HowItWorks": {
+    "title": "How it <accent>works</accent>",
+    "step1": "Send your request online.",
+    "step2": "ELVAIS contacts you by call or WhatsApp.",
+    "step3": "Agree the details and enjoy your ride."
+  },
+  "About": {
+    "title": "About <accent>ELVAIS</accent>",
+    "bio": "I'm ELVAIS, a professional taxi driver in Kigali. Whether you are arriving at the airport, moving around the city or heading out of Kigali, we agree the details together before the ride.",
+    "experience": "{years, plural, one {# year of experience} other {# years of experience}}",
+    "languages": "Languages spoken: {list}",
+    "areas": "Serving Kigali and trips across Rwanda",
+    "vehicleAlt": "The car ELVAIS drives"
+  },
+  "CtaBand": {
+    "title": "Ready to ride?",
+    "text": "Send a request and ELVAIS will contact you to confirm the details and agree the price. No online payment is required."
+  },
+  "Footer": {
+    "brandBlurb": "Private taxi driver in Kigali. Airport transfers, city rides, trips outside Kigali and tours.",
+    "quickLinks": "Quick links",
+    "contact": "Contact",
+    "followUs": "Follow us",
+    "opensNewTab": "(opens in a new tab)",
+    "privacy": "Privacy",
+    "location": "Kigali, Rwanda",
+    "availability": "Available 24/7",
+    "copyright": "© ELVAIS. All rights reserved."
+  }
+ 
+}
+  

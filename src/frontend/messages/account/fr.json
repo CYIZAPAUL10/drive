@@ -1,0 +1,127 @@
+{
+  "Account": {
+    "navAccount": "Compte",
+    "required": "(obligatoire)",
+    "optional": "(facultatif)",
+    "summaryTitle": "Veuillez corriger les points suivants pour continuer",
+    "formErrorTitle": "Cela n'a pas fonctionné",
+    "prefillNote": "Vous êtes connecté en tant que {email}. Vos informations sont déjà remplies ci-dessous.",
+    "nav": {
+      "label": "Votre compte",
+      "requests": "Mes demandes",
+      "settings": "Paramètres",
+      "signOut": "Se déconnecter"
+    },
+    "fields": {
+      "fullName": { "label": "Nom complet" },
+      "phone": {
+        "label": "Numéro de téléphone",
+        "hint": "Les numéros rwandais peuvent s'écrire 078 123 4567. Depuis l'étranger, commencez par + et l'indicatif de votre pays."
+      },
+      "email": { "label": "E-mail" },
+      "password": { "label": "Mot de passe", "hint": "Au moins 10 caractères. Quelques mots sans lien entre eux fonctionnent bien." },
+      "currentPassword": { "label": "Votre mot de passe" },
+      "newPassword": { "label": "Nouveau mot de passe", "hint": "Au moins 10 caractères." }
+    },
+    "register": {
+      "metaTitle": "Créer un compte | ELVAIS",
+      "title": "Créer un <accent>compte</accent>",
+      "intro": "Un compte est facultatif. Il remplit vos informations lors d'une demande de course et vous permet de voir vos demandes passées.",
+      "submit": "Créer le compte",
+      "submitting": "Création…",
+      "haveAccount": "Vous avez déjà un compte ?",
+      "signIn": "Se connecter",
+      "sentTitle": "Vérifiez votre boîte e-mail",
+      "sentText": "Si cette adresse peut être utilisée, nous avons envoyé un lien pour la confirmer. Le lien est valable 24 heures. Vérifiez vos courriers indésirables si vous ne le voyez pas."
+    },
+    "login": {
+      "metaTitle": "Connexion | ELVAIS",
+      "title": "<accent>Connexion</accent>",
+      "intro": "Connectez-vous pour voir vos demandes et remplir vos informations automatiquement.",
+      "submit": "Se connecter",
+      "submitting": "Connexion…",
+      "forgot": "Mot de passe oublié ?",
+      "noAccount": "Pas encore de compte ?",
+      "createAccount": "Créer un compte",
+      "guestHint": "Vous n'avez pas besoin de compte pour demander une course.",
+      "resetDone": "Votre mot de passe a été modifié. Vous pouvez vous connecter.",
+      "deleted": "Votre compte et vos demandes ont été supprimés.",
+      "resend": "Envoyer un nouveau lien de confirmation",
+      "resending": "Envoi…",
+      "resendSent": "Si cette adresse attend une confirmation, nous avons envoyé un nouveau lien."
+    },
+    "forgot": {
+      "metaTitle": "Mot de passe oublié | ELVAIS",
+      "title": "Mot de passe <accent>oublié</accent> ?",
+      "intro": "Saisissez votre e-mail et nous vous enverrons un lien pour choisir un nouveau mot de passe.",
+      "submit": "Envoyer le lien",
+      "submitting": "Envoi…",
+      "sentTitle": "Vérifiez votre boîte e-mail",
+      "sentText": "Si un compte existe pour cette adresse, nous avons envoyé un lien pour choisir un nouveau mot de passe. Il est valable 1 heure. Vérifiez vos courriers indésirables si vous ne le voyez pas.",
+      "back": "Retour à la connexion"
+    },
+    "reset": {
+      "metaTitle": "Nouveau mot de passe | ELVAIS",
+      "title": "Choisir un nouveau <accent>mot de passe</accent>",
+      "intro": "Saisissez un nouveau mot de passe pour votre compte.",
+      "submit": "Enregistrer le mot de passe",
+      "submitting": "Enregistrement…",
+      "invalidTitle": "Ce lien ne fonctionne plus",
+      "invalidText": "Le lien a déjà été utilisé ou a expiré. Vous pouvez en demander un nouveau.",
+      "requestNew": "Demander un nouveau lien"
+    },
+    "verify": {
+      "metaTitle": "Confirmation de l'e-mail | ELVAIS",
+      "okTitle": "E-mail <accent>confirmé</accent>",
+      "okText": "Votre compte est prêt. Connectez-vous pour continuer. Les demandes faites plus tôt avec cette adresse e-mail apparaissent maintenant dans votre compte.",
+      "invalidTitle": "Ce lien <accent>ne fonctionne plus</accent>",
+      "invalidText": "Le lien a déjà été utilisé ou a expiré. Si vous avez déjà confirmé votre e-mail, vous pouvez vous connecter. Sinon, essayez de vous connecter et nous proposerons d'envoyer un nouveau lien.",
+      "signIn": "Se connecter"
+    },
+    "requests": {
+      "metaTitle": "Mes demandes | ELVAIS",
+      "title": "Mes <accent>demandes</accent>",
+      "intro": "Vos dernières demandes de course et leur état.",
+      "empty": "Vous n'avez pas encore de demande.",
+      "newRequest": "Demander une course",
+      "pickup": "Prise en charge",
+      "received": "Reçue le",
+      "reference": "Référence",
+      "statuses": {
+        "NEW": "Reçue",
+        "CONTACTED": "Contactée",
+        "CONFIRMED": "Confirmée",
+        "COMPLETED": "Terminée",
+        "CANCELLED": "Annulée"
+      },
+      "note": "Une question sur une demande ? Appelez ou écrivez à ELVAIS sur WhatsApp en indiquant le code de référence."
+    },
+    "settings": {
+      "metaTitle": "Paramètres | ELVAIS",
+      "title": "Paramètres du <accent>compte</accent>",
+      "detailsTitle": "Vos informations",
+      "deleteTitle": "Supprimer mon compte",
+      "deleteSummary": "Supprimer mon compte…",
+      "deleteText": "Cela supprime définitivement votre compte et toutes les demandes qui y sont liées. Cette action est irréversible.",
+      "deleteConfirm": "Oui, supprimer mon compte et mes demandes",
+      "deleteSubmit": "Supprimer définitivement",
+      "deleting": "Suppression…"
+    },
+    "errors": {
+      "required": "Ce champ est obligatoire.",
+      "tooShort": "Ce champ est trop court.",
+      "tooLong": "Ce champ est trop long.",
+      "invalidEmail": "Saisissez une adresse e-mail valide, par exemple nom@exemple.com.",
+      "invalidPhone": "Saisissez un numéro de téléphone valide.",
+      "passwordShort": "Utilisez au moins 10 caractères.",
+      "confirmRequired": "Cochez la case pour confirmer.",
+      "wrongPassword": "Le mot de passe n'est pas correct.",
+      "invalid": "L'e-mail ou le mot de passe n'est pas correct.",
+      "blocked": "Trop de tentatives. Patientez 15 minutes puis réessayez.",
+      "unverified": "Votre adresse e-mail n'est pas encore confirmée. Utilisez le lien que nous vous avons envoyé, ou demandez-en un nouveau ci-dessous.",
+      "rateLimited": "Trop de demandes depuis votre connexion. Patientez un moment puis réessayez.",
+      "invalidLink": "Ce lien ne fonctionne plus. Demandez-en un nouveau.",
+      "serverError": "Un problème est survenu. Veuillez réessayer."
+    }
+  }
+}

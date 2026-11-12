@@ -1,0 +1,74 @@
+{
+  "Booking": {
+    "metaTitle": "Request a ride | ELVAIS",
+    "metaDescription": "Send a ride request to ELVAIS in Kigali. He will contact you to confirm the details and agree the price.",
+    "title": "Request a <accent>ride</accent>",
+    "intro": "Tell ELVAIS about your trip. He will contact you by call or WhatsApp to confirm the details and agree the price.",
+    "required": "(required)",
+    "optional": "(optional)",
+    "sections": {
+      "contact": "Your contact details",
+      "trip": "Your trip",
+      "details": "Extra details"
+    },
+    "fields": {
+      "fullName": { "label": "Full name" },
+      "phone": {
+        "label": "Phone number",
+        "hint": "Rwandan numbers can be written as 078 123 4567. From abroad, start with + and your country code."
+      },
+      "email": { "label": "Email", "hint": "Only if you would like a confirmation by email." },
+      "service": { "label": "Service", "placeholder": "Choose a service" },
+      "tripType": {
+        "label": "Trip type",
+        "options": { "one_way": "One way", "round_trip": "Round trip", "multi_day": "Multi-day" }
+      },
+      "numberOfDays": { "label": "Number of days", "hint": "From 2 to 30 days." },
+      "pickup": { "label": "Pickup location", "hint": "Address, hotel or landmark." },
+      "destination": { "label": "Destination" },
+      "date": { "label": "Date" },
+      "time": { "label": "Time", "hint": "Kigali time." },
+      "passengers": { "label": "Number of passengers", "hint": "Up to {max}." },
+      "notes": { "label": "Notes", "hint": "For example luggage, a child seat or your flight number." },
+      "preferredContact": {
+        "label": "How should ELVAIS contact you?",
+        "options": { "call": "Phone call", "whatsapp": "WhatsApp" }
+      }
+    },
+    "notice": "ELVAIS will contact you to confirm the details and agree the price. No online payment is required.",
+    "crossBorder": "Cross-border trips are not offered. Trips must stay within Rwanda.",
+    "submit": "Send request",
+    "submitting": "Sending…",
+    "summaryTitle": "Please fix the following to continue",
+    "formErrorTitle": "Your request was not sent",
+    "errors": {
+      "required": "This field is required.",
+      "tooShort": "This is too short.",
+      "tooLong": "This is too long.",
+      "invalidPhone": "Enter a valid phone number.",
+      "invalidEmail": "Enter a valid email address, for example name@example.com.",
+      "invalidDate": "Choose a valid date.",
+      "invalidTime": "Choose a valid time.",
+      "pastDateTime": "This date and time have already passed. Choose a later time.",
+      "tooFar": "Choose a date within the next year.",
+      "invalidNumber": "Enter a whole number.",
+      "passengersRange": "Enter a number from 1 to {max}.",
+      "daysRange": "Enter a number of days from {minDays} to {maxDays}.",
+      "formExpired": "This form has expired. Your answers are kept, so please send it again.",
+      "tryAgain": "Something went wrong. Please try sending again.",
+      "rateLimited": "Too many requests from your connection. Please wait a few minutes, or call or WhatsApp ELVAIS directly.",
+      "serverError": "We could not save your request. Please try again, or call or WhatsApp ELVAIS directly."
+    }
+  },
+  "Received": {
+    "metaTitle": "Request received | ELVAIS",
+    "title": "Request <accent>received</accent>",
+    "lead": "Thank you. Your ride request has been sent to ELVAIS.",
+    "codeLabel": "Your reference code",
+    "keepCode": "Keep this code in case you need to mention your request.",
+    "contactText": "ELVAIS will contact you by call or WhatsApp to confirm the details and agree the price.",
+    "noPayment": "No online payment is required.",
+    "whatsappPrefill": "Hello ELVAIS, my request reference is {ref}.",
+    "backHome": "Back to home"
+  }
+}

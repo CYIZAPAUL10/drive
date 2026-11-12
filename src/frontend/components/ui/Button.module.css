@@ -1,0 +1,63 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: var(--target-comfortable);
+  padding: var(--space-3) var(--space-6);
+  border: 2px solid transparent;
+  border-radius: var(--radius);
+  font: inherit;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease,
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.primary { background: var(--color-yellow); border-color: var(--color-yellow); color: var(--color-on-yellow); }
+.primary:hover { background: var(--color-yellow-hover); border-color: var(--color-yellow-hover); }
+
+/* Secondary follows the surface: white on dark sections, charcoal on light ones */
+.secondary { background: transparent; border-color: var(--on-surface); color: var(--on-surface); }
+.secondary:hover { background: color-mix(in srgb, var(--on-surface) 12%, transparent); }
+
+.dark { background: var(--color-dark); border-color: var(--color-dark); color: #ffffff; }
+.dark:hover { background: #333333; border-color: #333333; }
+
+.danger { background: #b91c1c; border-color: #b91c1c; color: #ffffff; } /* white on red: 6.5:1 */
+.danger:hover { background: #991b1b; border-color: #991b1b; }
+
+.btn:disabled { cursor: progress; }
+
+/* 3. Hover lift and press-in */
+@media (prefers-reduced-motion: no-preference) {
+  .btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgb(0 0 0 / 0.18);
+  }
+  .btn:active:not(:disabled) {
+    transform: translateY(1px) scale(0.98);
+    box-shadow: none;
+  }
+}
+
+/* 7. A small ring turns inside a button while it is sending. The forms already set aria-busy. */
+.btn[aria-busy='true']::before {
+  content: '';
+  flex: none;
+  width: 1em;
+  height: 1em;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

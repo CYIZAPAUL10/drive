@@ -1,0 +1,84 @@
+{
+  "Meta": {
+    "title": "ELVAIS | Chauffeur de taxi à Kigali",
+    "description": "Réservez une course avec ELVAIS, chauffeur de taxi professionnel à Kigali, au Rwanda. Transferts aéroport, courses en ville, trajets hors de Kigali et excursions."
+  },
+  "Layout": {
+    "skipToContent": "Aller au contenu principal",
+    "languageNav": "Langue",
+    "mainNav": "Principal",
+    "menu": "Menu",
+    "navServices": "Services",
+    "navHow": "Comment ça marche",
+    "navAbout": "À propos",
+    "navBook": "Demander une course"
+  },
+  "Home": {
+    "heroTitle": "Faites connaissance avec <accent>ELVAIS</accent>",
+    "intro": "ELVAIS est un service de taxi local et professionnel. Vous envoyez votre demande, je vous appelle ou vous écris sur WhatsApp, nous nous mettons d'accord, puis je viens vous chercher.",
+    "benefit1": "Fiable et ponctuel",
+    "benefit2": "Véhicule propre et confortable",
+    "benefit3": "Bonne connaissance de Kigali, trajets sûrs",
+    "requestRide": "Demander une course",
+    "callElvais": "Appeler ELVAIS",
+    "whatsappElvais": "WhatsApp ELVAIS",
+    "whatsappPrefill": "Bonjour ELVAIS, je voudrais réserver une course.",
+    "portraitAlt": "Portrait d'ELVAIS, votre chauffeur",
+    "bookNow": "Réservez"
+  },
+  "Services": {
+    "title": "Nos <accent>services</accent>",
+    "requestService": "Demander ce service",
+    "items": {
+      "airport": {
+        "name": "Transfert aéroport",
+        "description": "Prise en charge et dépose à l'aéroport international de Kigali."
+      },
+      "city": {
+        "name": "Courses en ville",
+        "description": "Courses partout à Kigali, pour le travail, les démarches ou une soirée."
+      },
+      "outside": {
+        "name": "Trajets hors de Kigali",
+        "description": "Excursions d'une journée et trajets plus longs au Rwanda."
+      },
+      "tours": {
+        "name": "Excursions",
+        "description": "Visites autour de Kigali et au-delà, à votre rythme."
+      },
+      "corporate": {
+        "name": "Service entreprises et réguliers",
+        "description": "Courses régulières pour le personnel et les invités, organisées à l'avance."
+      }
+    }
+  },
+  "HowItWorks": {
+    "title": "Comment ça <accent>marche</accent>",
+    "step1": "Envoyez votre demande en ligne.",
+    "step2": "ELVAIS vous contacte par appel ou WhatsApp.",
+    "step3": "Convenez des détails et profitez de votre course."
+  },
+  "About": {
+    "title": "Qui est <accent>ELVAIS</accent> ?",
+    "bio": "Je suis ELVAIS, chauffeur de taxi professionnel à Kigali. Que vous arriviez à l'aéroport, que vous vous déplaciez en ville ou que vous partiez hors de Kigali, nous convenons ensemble des détails avant la course.",
+    "experience": "{years, plural, one {# an d'expérience} other {# ans d'expérience}}",
+    "languages": "Langues parlées : {list}",
+    "areas": "Kigali et trajets partout au Rwanda",
+    "vehicleAlt": "Le véhicule d'ELVAIS"
+  },
+  "CtaBand": {
+    "title": "Prêt à partir ?",
+    "text": "Envoyez une demande : ELVAIS vous contactera pour confirmer les détails et convenir du prix. Aucun paiement en ligne n'est requis."
+  },
+  "Footer": {
+    "brandBlurb": "Chauffeur de taxi privé à Kigali. Transferts aéroport, courses en ville, trajets hors de Kigali et excursions.",
+    "quickLinks": "Liens rapides",
+    "contact": "Contact",
+    "followUs": "Suivez-nous",
+    "opensNewTab": "(s'ouvre dans un nouvel onglet)",
+    "privacy": "Confidentialité",
+    "location": "Kigali, Rwanda",
+    "availability": "Disponible 24h/24 et 7j/7",
+    "copyright": "© ELVAIS. Tous droits réservés."
+  }
+}

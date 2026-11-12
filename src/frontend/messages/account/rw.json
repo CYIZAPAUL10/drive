@@ -1,0 +1,127 @@
+{
+  "Account": {
+    "navAccount": "Konti",
+    "required": "(bikenewe)",
+    "optional": "(si ngombwa)",
+    "summaryTitle": "Nyamuneka ukosore ibi bikurikira kugira ngo ukomeze",
+    "formErrorTitle": "Ntibyakunze",
+    "prefillNote": "Winjiye nka {email}. Amakuru yawe yamaze kuzuzwa hasi.",
+    "nav": {
+      "label": "Konti yawe",
+      "requests": "Ubusabe bwanjye",
+      "settings": "Igenamiterere",
+      "signOut": "Sohoka"
+    },
+    "fields": {
+      "fullName": { "label": "Amazina yose" },
+      "phone": {
+        "label": "Numero ya telefoni",
+        "hint": "Numero z'u Rwanda wazandika nka 078 123 4567. Uri hanze y'igihugu, tangira na + n'kode y'igihugu cyawe."
+      },
+      "email": { "label": "Imeri" },
+      "password": { "label": "Ijambobanga", "hint": "Nibura inyuguti 10. Amagambo make adafitanye isano arakora neza." },
+      "currentPassword": { "label": "Ijambobanga ryawe" },
+      "newPassword": { "label": "Ijambobanga rishya", "hint": "Nibura inyuguti 10." }
+    },
+    "register": {
+      "metaTitle": "Fungura konti | ELVAIS",
+      "title": "Fungura <accent>konti</accent>",
+      "intro": "Konti si ngombwa. Yuzuza amakuru yawe iyo usaba urugendo kandi ikwereka ubusabe bwawe bwashize.",
+      "submit": "Fungura konti",
+      "submitting": "Birimo gufungura…",
+      "haveAccount": "Usanzwe ufite konti?",
+      "signIn": "Injira",
+      "sentTitle": "Reba imeri yawe",
+      "sentText": "Niba iyi mimero ishobora gukoreshwa, twohereje ihuza ryo kuyemeza. Rimara amasaha 24. Reba no mu butumwa bw'ubusa niba utaribona."
+    },
+    "login": {
+      "metaTitle": "Injira | ELVAIS",
+      "title": "<accent>Injira</accent>",
+      "intro": "Injira kugira ngo urebe ubusabe bwawe kandi amakuru yawe yuzuzwe ubwayo.",
+      "submit": "Injira",
+      "submitting": "Birimo kwinjira…",
+      "forgot": "Wibagiwe ijambobanga?",
+      "noAccount": "Nta konti ufite?",
+      "createAccount": "Fungura imwe",
+      "guestHint": "Ntukeneye konti kugira ngo usabe urugendo.",
+      "resetDone": "Ijambobanga ryawe ryahinduwe. Ushobora kwinjira ubu.",
+      "deleted": "Konti yawe n'ubusabe bwawe byasibwe.",
+      "resend": "Ohereza ihuza rishya ryo kwemeza",
+      "resending": "Birimo koherezwa…",
+      "resendSent": "Niba iyi mimero itegereje kwemezwa, twohereje ihuza rishya."
+    },
+    "forgot": {
+      "metaTitle": "Wibagiwe ijambobanga | ELVAIS",
+      "title": "Wibagiwe <accent>ijambobanga</accent>?",
+      "intro": "Andika imeri yawe maze tuzakohereza ihuza ryo guhitamo ijambobanga rishya.",
+      "submit": "Ohereza ihuza",
+      "submitting": "Birimo koherezwa…",
+      "sentTitle": "Reba imeri yawe",
+      "sentText": "Niba hari konti kuri iyi mimero, twohereje ihuza ryo guhitamo ijambobanga rishya. Rimara isaha 1. Reba no mu butumwa bw'ubusa niba utaribona.",
+      "back": "Subira ku kwinjira"
+    },
+    "reset": {
+      "metaTitle": "Hitamo ijambobanga rishya | ELVAIS",
+      "title": "Hitamo <accent>ijambobanga</accent> rishya",
+      "intro": "Andika ijambobanga rishya rya konti yawe.",
+      "submit": "Bika ijambobanga rishya",
+      "submitting": "Birimo kubikwa…",
+      "invalidTitle": "Iri huza ntirigikora",
+      "invalidText": "Iri huza ryamaze gukoreshwa cyangwa ryararangiye. Ushobora gusaba irishya.",
+      "requestNew": "Saba ihuza rishya"
+    },
+    "verify": {
+      "metaTitle": "Emeza imeri | ELVAIS",
+      "okTitle": "Imeri <accent>yemejwe</accent>",
+      "okText": "Konti yawe irarangiye. Injira kugira ngo ukomeze. Ubusabe watanze mbere ukoresheje iyi mimero bugaragara muri konti yawe.",
+      "invalidTitle": "Iri huza <accent>ntirigikora</accent>",
+      "invalidText": "Iri huza ryamaze gukoreshwa cyangwa ryararangiye. Niba wamaze kwemeza imeri yawe, ushobora kwinjira. Niba atari ko biri, gerageza kwinjira maze tuzaguha kohereza irishya.",
+      "signIn": "Injira"
+    },
+    "requests": {
+      "metaTitle": "Ubusabe bwanjye | ELVAIS",
+      "title": "Ubusabe <accent>bwanjye</accent>",
+      "intro": "Ubusabe bwawe bw'urugendo bwa vuba n'aho bugeze.",
+      "empty": "Nta busabe urabona.",
+      "newRequest": "Saba urugendo",
+      "pickup": "Aho ufatirwa",
+      "received": "Bwakiriwe",
+      "reference": "Kode",
+      "statuses": {
+        "NEW": "Bwakiriwe",
+        "CONTACTED": "Wahamagawe",
+        "CONFIRMED": "Bwemejwe",
+        "COMPLETED": "Bwarangiye",
+        "CANCELLED": "Bwahagaritswe"
+      },
+      "note": "Ufite ikibazo ku busabe? Hamagara ELVAIS cyangwa umwandikire kuri WhatsApp uvuga kode y'ubusabe."
+    },
+    "settings": {
+      "metaTitle": "Igenamiterere | ELVAIS",
+      "title": "Igenamiterere rya <accent>konti</accent>",
+      "detailsTitle": "Amakuru yawe",
+      "deleteTitle": "Siba konti yanjye",
+      "deleteSummary": "Siba konti yanjye…",
+      "deleteText": "Ibi bisiba burundu konti yawe n'ubusabe bwose bwayihujwe. Ntibishobora gusubizwa inyuma.",
+      "deleteConfirm": "Yego, siba konti yanjye n'ubusabe bwanjye",
+      "deleteSubmit": "Siba burundu",
+      "deleting": "Birimo gusibwa…"
+    },
+    "errors": {
+      "required": "Iki gice kirakenewe.",
+      "tooShort": "Ibyanditswe ni bigufi cyane.",
+      "tooLong": "Ibyanditswe ni birebire cyane.",
+      "invalidEmail": "Andika imeri yemewe, urugero izina@urugero.com.",
+      "invalidPhone": "Andika numero ya telefoni yemewe.",
+      "passwordShort": "Koresha nibura inyuguti 10.",
+      "confirmRequired": "Shyira akamenyetso kugira ngo wemeze.",
+      "wrongPassword": "Ijambobanga si ryo.",
+      "invalid": "Imeri cyangwa ijambobanga si byo.",
+      "blocked": "Wagerageje inshuro nyinshi. Tegereza iminota 15 maze wongere ugerageze.",
+      "unverified": "Imeri yawe ntiremezwa. Koresha ihuza twakoherereje, cyangwa usabe irishya hasi.",
+      "rateLimited": "Ubusabe ni bwinshi cyane buturutse kuri interineti yawe. Tegereza gato maze wongere ugerageze.",
+      "invalidLink": "Iri huza ntirigikora. Saba irishya.",
+      "serverError": "Hari ikitagenze neza. Ongera ugerageze."
+    }
+  }
+}

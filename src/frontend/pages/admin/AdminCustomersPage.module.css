@@ -1,0 +1,6 @@
+.badge { padding: 0.125rem 0.625rem; border-radius: 999px; background: #e5e7eb; color: #1f2937; font-size: var(--text-small); font-weight: 700; }
+.ok { padding: 0.125rem 0.625rem; border-radius: 999px; background: #dcfce7; color: #14532d; font-size: var(--text-small); font-weight: 700; }
+.pending { padding: 0.125rem 0.625rem; border-radius: 999px; background: #fee2e2; color: #7f1d1d; font-size: var(--text-small); font-weight: 700; }
+.requests { margin: 0; padding: 0; list-style: none; display: grid; gap: var(--space-2); }
+.requests li { padding: var(--space-3); border: 1px solid var(--color-divider); border-radius: var(--radius); display: grid; gap: var(--space-1); }
+.more { margin: var(--space-3) 0 0; color: var(--color-text-muted); }

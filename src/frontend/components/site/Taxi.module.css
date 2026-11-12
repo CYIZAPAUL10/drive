@@ -1,0 +1,22 @@
+.road {
+  max-width: 72rem;
+  height: 2.75rem;
+  margin: var(--space-6) auto 0;
+  overflow: hidden;
+  border-bottom: 3px dashed rgb(26 26 26 / 0.45);
+}
+
+/* The taxi rests at the right-hand end. With motion allowed, scrolling drives it there from the left. */
+.driver {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  translate: calc(100% - 96px) 0;
+}
+
+.taxi { display: block; width: 96px; height: auto; }
+.body { fill: #1a1a1a; }
+.window { fill: var(--color-yellow); }
+.light { fill: #ffffff; }
+.wheel { fill: #1a1a1a; stroke: var(--color-yellow); stroke-width: 3; }

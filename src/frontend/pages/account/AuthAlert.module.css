@@ -1,0 +1,10 @@
+.alert {
+  margin: 0 0 var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-error-bg);
+  color: var(--color-error);
+  border: 2px solid var(--color-error);
+  border-radius: var(--radius);
+  font-weight: 600;
+}
+.alert p { margin: 0; }

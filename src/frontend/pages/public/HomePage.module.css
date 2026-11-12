@@ -1,0 +1,49 @@
+.hero { background: var(--color-dark); padding: var(--space-8) var(--space-4) var(--space-10); }
+.inner { max-width: 72rem; margin-inline: auto; display: grid; gap: var(--space-8); }
+.title { margin: 0; font-size: var(--text-h1); font-weight: 800; line-height: 1.1; }
+.intro { margin: var(--space-4) 0 0; font-size: 1.125rem; color: var(--color-on-dark-muted); }
+.benefits { list-style: none; margin: var(--space-6) 0 0; padding: 0; display: grid; gap: var(--space-3); font-weight: 600; }
+.benefits li { display: flex; align-items: center; gap: var(--space-3); }
+.benefits svg { flex: none; color: var(--color-yellow); }
+.actions { margin-top: var(--space-6); display: grid; gap: var(--space-3); }
+
+.media { position: relative; padding-bottom: var(--space-3); }
+.frame { position: relative; }
+.frame::before { /* decorative yellow offset block */
+  content: '';
+  position: absolute;
+  top: var(--space-3);
+  right: 0;
+  bottom: calc(var(--space-3) * -1);
+  left: var(--space-3);
+  background: var(--color-yellow);
+  border-radius: var(--radius);
+}
+.photo {
+  position: relative;
+  width: calc(100% - var(--space-3));
+  height: auto;
+  aspect-ratio: 9 / 8;
+  object-fit: cover;
+  object-position: top;
+  border-radius: var(--radius);
+}
+.callCard {
+  position: relative;
+  z-index: 2;
+  --focus: var(--color-on-yellow); /* white ring would vanish on yellow */
+  margin-top: var(--space-8);
+  padding: var(--space-4);
+  background: var(--color-yellow);
+  color: var(--color-on-yellow);
+  text-align: center;
+  border-radius: var(--radius);
+}
+.callLabel { margin: 0; font-size: var(--text-large); font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; }
+.callNumber { display: inline-flex; align-items: center; min-height: var(--target-min); font-size: 1.5rem; font-weight: 800; color: var(--color-on-yellow); }
+
+@media (min-width: 64rem) {
+  .hero { padding-block: var(--space-12); }
+  .inner { grid-template-columns: 1.1fr 1fr; align-items: center; gap: var(--space-12); }
+  .callCard { position: absolute; left: var(--space-4); bottom: var(--space-8); margin-top: 0; }
+}

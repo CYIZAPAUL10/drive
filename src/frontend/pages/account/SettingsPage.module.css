@@ -1,0 +1,5 @@
+.h2 { margin: 0 0 var(--space-3); padding-bottom: var(--space-2); font-size: var(--text-large); border-bottom: 3px solid var(--color-yellow); }
+.details { margin: 0; display: grid; gap: var(--space-3); }
+.item { display: grid; gap: 0.125rem; }
+.item dt { font-size: var(--text-small); color: var(--color-text-muted); }
+.item dd { margin: 0; font-weight: 600; overflow-wrap: anywhere; }

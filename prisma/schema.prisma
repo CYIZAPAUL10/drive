@@ -1,0 +1,219 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Language {
+  en
+  rw
+  fr
+}
+
+enum TripType {
+  one_way
+  round_trip
+  multi_day
+}
+
+enum ContactPref {
+  call
+  whatsapp
+}
+
+enum BookingStatus {
+  NEW
+  CONTACTED
+  CONFIRMED
+  COMPLETED
+  CANCELLED
+}
+
+enum NotifType {
+  new_request
+  reminder
+  customer_confirmation
+  verify_email
+  password_reset
+  alert_summary
+}
+
+enum NotifStatus {
+  pending
+  sent
+  failed
+}
+
+enum TokenType {
+  verify
+  reset
+}
+
+enum ClickType {
+  whatsapp
+  call
+}
+
+/// The single driver record (ELVAIS). No license or plate, by decision.
+model Driver {
+  id                 String   @id @default("singleton")
+  name               String
+  phone              String
+  whatsappNumber     String
+  email              String
+  vehicleDescription String   @default("")
+  vehicleCapacity    Int      @default(4)
+  photoPath          String   @default("/images/portrait.jpg")
+  yearsExperience    Int?
+  languagesSpoken    String[]
+  updatedAt          DateTime @updatedAt
+}
+
+model Service {
+  id             String           @id @default(cuid())
+  key            String           @unique
+  isActive       Boolean          @default(true)
+  allowsMultiDay Boolean          @default(true)
+  sortOrder      Int              @default(0)
+  bookings       BookingRequest[]
+}
+
+/// Editable text in three languages (bio, service names, alt text...)
+model Translation {
+  id         String   @id @default(cuid())
+  entityType String
+  entityId   String
+  field      String
+  language   Language
+  text       String
+  updatedAt  DateTime @updatedAt
+
+  @@unique([entityType, entityId, field, language])
+}
+
+model Customer {
+  id                String           @id @default(cuid())
+  fullName          String
+  phone             String // empty for accounts created with Google, until they give one in a booking
+  email             String           @unique
+  emailVerified     Boolean          @default(false)
+  passwordHash      String // for Google-only accounts: a random hash that nobody knows
+  hasPassword       Boolean          @default(true)
+  googleId          String?          @unique
+  preferredLanguage Language         @default(en)
+  tokenVersion      Int              @default(0)
+  createdAt         DateTime         @default(now())
+  bookings          BookingRequest[]
+}
+
+model AdminUser {
+  id           String    @id @default(cuid())
+  email        String    @unique
+  passwordHash String
+  tokenVersion Int       @default(0)
+  lastLoginAt  DateTime?
+}
+
+model BookingRequest {
+  id                 String            @id @default(cuid())
+  referenceCode      String            @unique
+  customerId         String?
+  customer           Customer?         @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  guestName          String
+  guestPhone         String
+  guestEmail         String?
+  serviceId          String
+  service            Service           @relation(fields: [serviceId], references: [id])
+  tripType           TripType
+  numberOfDays       Int?
+  preferredContact   ContactPref
+  language           Language
+  status             BookingStatus     @default(NEW)
+  isSpam             Boolean           @default(false)
+  driverPrivateNotes String?
+  dedupeHash         String
+  reminderSentAt     DateTime?
+  createdAt          DateTime          @default(now())
+  updatedAt          DateTime          @updatedAt
+  purgeAfter         DateTime
+  notifications      NotificationLog[]
+
+  @@index([status, createdAt])
+  @@index([guestEmail])
+  @@index([dedupeHash, createdAt])
+  @@index([purgeAfter])
+}
+
+/// Doubles as the email outbox: a "pending" row is written inside the booking transaction.
+/// Never store personal data in `error`.
+model NotificationLog {
+  id         String          @id @default(cuid())
+  bookingId  String?
+  booking    BookingRequest? @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+  type       NotifType
+  status     NotifStatus     @default(pending)
+  retryCount Int             @default(0)
+  sentAt     DateTime?
+  error      String?
+  createdAt  DateTime        @default(now())
+
+  @@index([status, createdAt])
+}
+
+model EmailToken {
+  id         String    @id @default(cuid())
+  identifier String
+  tokenHash  String    @unique
+  type       TokenType
+  expiresAt  DateTime
+  usedAt     DateTime?
+  createdAt  DateTime  @default(now())
+
+  @@index([identifier, type])
+}
+
+model RateLimit {
+  key         String
+  windowStart DateTime
+  count       Int      @default(0)
+
+  @@id([key, windowStart])
+}
+
+/// No identifiers stored.
+model ContactClick {
+  id        String    @id @default(cuid())
+  type      ClickType
+  language  Language
+  page      String
+  clickedAt DateTime  @default(now())
+}
+
+/// v2 feature, created empty so the schema doesn't change later.
+model BlockedDate {
+  id      String   @id @default(cuid())
+  startAt DateTime
+  endAt   DateTime
+  reason  String?
+}
+
+/// Lets the admin health page show when cron jobs last ran.
+model CronRun {
+  id     String   @id @default(cuid())
+  job    String
+  ranAt  DateTime @default(now())
+  ok     Boolean
+  detail String?
+
+  @@index([job, ranAt])
+}
+
+/// One row per platform that has a link. A platform with no row is not shown on the website.
+model SocialLink {
+  platform  String   @id
+  url       String
+  updatedAt DateTime @updatedAt
+}

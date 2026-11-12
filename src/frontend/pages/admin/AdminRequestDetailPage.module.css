@@ -1,0 +1,29 @@
+.back { margin: 0 0 var(--space-4); }
+.back a { display: inline-flex; align-items: center; min-height: var(--target-min); font-weight: 600; }
+
+.head { margin-bottom: var(--space-6); }
+.badges { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.spam { padding: 0.125rem 0.625rem; border-radius: 999px; background: #4b5563; color: #ffffff; font-size: var(--text-small); font-weight: 700; }
+.title { margin: var(--space-2) 0 var(--space-1); font-size: var(--text-h2); }
+.sub { margin: 0; color: var(--color-text-muted); }
+
+.contact { display: grid; gap: var(--space-3); margin-bottom: var(--space-8); }
+
+.section { margin-bottom: var(--space-8); }
+.h2 { margin: 0 0 var(--space-3); padding-bottom: var(--space-2); font-size: var(--text-large); border-bottom: 3px solid var(--color-yellow); }
+
+.details { margin: 0; display: grid; gap: var(--space-3); }
+.item { display: grid; gap: 0.125rem; }
+.item dt { font-size: var(--text-small); color: var(--color-text-muted); }
+.item dd { margin: 0; font-weight: 600; white-space: pre-line; overflow-wrap: anywhere; }
+
+.forms { display: grid; gap: var(--space-2); }
+.emails { margin: 0; padding-inline-start: var(--space-6); display: grid; gap: var(--space-2); }
+.warn { margin: var(--space-3) 0 0; padding: var(--space-3) var(--space-4); background: var(--color-error-bg); color: var(--color-error); border-radius: var(--radius); font-weight: 600; }
+.manage { display: grid; gap: var(--space-4); }
+
+@media (min-width: 48rem) {
+  .contact { grid-template-columns: repeat(3, auto); justify-content: start; }
+  .details { grid-template-columns: repeat(2, 1fr); }
+  .forms { grid-template-columns: 1fr 1fr; gap: var(--space-8); }
+}

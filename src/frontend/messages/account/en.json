@@ -1,0 +1,127 @@
+{
+  "Account": {
+    "navAccount": "Account",
+    "required": "(required)",
+    "optional": "(optional)",
+    "summaryTitle": "Please fix the following to continue",
+    "formErrorTitle": "That did not work",
+    "prefillNote": "You are signed in as {email}. Your details are filled in below.",
+    "nav": {
+      "label": "Your account",
+      "requests": "My requests",
+      "settings": "Settings",
+      "signOut": "Sign out"
+    },
+    "fields": {
+      "fullName": { "label": "Full name" },
+      "phone": {
+        "label": "Phone number",
+        "hint": "Rwandan numbers can be written 078 123 4567. From abroad, start with + and your country code."
+      },
+      "email": { "label": "Email" },
+      "password": { "label": "Password", "hint": "At least 10 characters. A few unrelated words work well." },
+      "currentPassword": { "label": "Your password" },
+      "newPassword": { "label": "New password", "hint": "At least 10 characters." }
+    },
+    "register": {
+      "metaTitle": "Create an account | ELVAIS",
+      "title": "Create an <accent>account</accent>",
+      "intro": "An account is optional. It fills in your details when you request a ride and lets you see your past requests.",
+      "submit": "Create account",
+      "submitting": "Creating…",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "sentTitle": "Check your email",
+      "sentText": "If this address can be used, we have sent a link to confirm it. The link works for 24 hours. Check your spam folder if you do not see it."
+    },
+    "login": {
+      "metaTitle": "Sign in | ELVAIS",
+      "title": "<accent>Sign in</accent>",
+      "intro": "Sign in to see your requests and to fill in your details automatically.",
+      "submit": "Sign in",
+      "submitting": "Signing in…",
+      "forgot": "Forgot your password?",
+      "noAccount": "No account yet?",
+      "createAccount": "Create one",
+      "guestHint": "You do not need an account to request a ride.",
+      "resetDone": "Your password was changed. You can sign in now.",
+      "deleted": "Your account and requests were deleted.",
+      "resend": "Send a new confirmation link",
+      "resending": "Sending…",
+      "resendSent": "If this address is waiting for confirmation, we sent a new link."
+    },
+    "forgot": {
+      "metaTitle": "Forgot your password | ELVAIS",
+      "title": "Forgot your <accent>password</accent>?",
+      "intro": "Enter your email and we will send a link to choose a new password.",
+      "submit": "Send the link",
+      "submitting": "Sending…",
+      "sentTitle": "Check your email",
+      "sentText": "If an account exists for this address, we have sent a link to choose a new password. It works for 1 hour. Check your spam folder if you do not see it.",
+      "back": "Back to sign in"
+    },
+    "reset": {
+      "metaTitle": "Choose a new password | ELVAIS",
+      "title": "Choose a new <accent>password</accent>",
+      "intro": "Enter a new password for your account.",
+      "submit": "Save new password",
+      "submitting": "Saving…",
+      "invalidTitle": "This link no longer works",
+      "invalidText": "The link was already used or has expired. You can ask for a new one.",
+      "requestNew": "Ask for a new link"
+    },
+    "verify": {
+      "metaTitle": "Confirm your email | ELVAIS",
+      "okTitle": "Email <accent>confirmed</accent>",
+      "okText": "Your account is ready. Sign in to continue. Requests you made earlier with this email address now appear in your account.",
+      "invalidTitle": "This link <accent>no longer works</accent>",
+      "invalidText": "The link was already used or has expired. If you already confirmed your email, you can sign in. Otherwise, try to sign in and we will offer to send a new link.",
+      "signIn": "Sign in"
+    },
+    "requests": {
+      "metaTitle": "My requests | ELVAIS",
+      "title": "My <accent>requests</accent>",
+      "intro": "Your latest ride requests and where they stand.",
+      "empty": "You have no requests yet.",
+      "newRequest": "Request a ride",
+      "pickup": "Pickup",
+      "received": "Received",
+      "reference": "Reference",
+      "statuses": {
+        "NEW": "Received",
+        "CONTACTED": "Contacted",
+        "CONFIRMED": "Confirmed",
+        "COMPLETED": "Completed",
+        "CANCELLED": "Cancelled"
+      },
+      "note": "Questions about a request? Call or WhatsApp ELVAIS and mention the reference code."
+    },
+    "settings": {
+      "metaTitle": "Settings | ELVAIS",
+      "title": "Account <accent>settings</accent>",
+      "detailsTitle": "Your details",
+      "deleteTitle": "Delete my account",
+      "deleteSummary": "Delete my account…",
+      "deleteText": "This permanently deletes your account and every request linked to it. It cannot be undone.",
+      "deleteConfirm": "Yes, delete my account and my requests",
+      "deleteSubmit": "Delete permanently",
+      "deleting": "Deleting…"
+    },
+    "errors": {
+      "required": "This field is required.",
+      "tooShort": "This is too short.",
+      "tooLong": "This is too long.",
+      "invalidEmail": "Enter a valid email address, for example name@example.com.",
+      "invalidPhone": "Enter a valid phone number.",
+      "passwordShort": "Use at least 10 characters.",
+      "confirmRequired": "Tick the box to confirm.",
+      "wrongPassword": "The password is not correct.",
+      "invalid": "The email or password is not correct.",
+      "blocked": "Too many attempts. Please wait 15 minutes and try again.",
+      "unverified": "Your email address is not confirmed yet. Use the link we sent you, or ask for a new one below.",
+      "rateLimited": "Too many requests from your connection. Please wait a while and try again.",
+      "invalidLink": "This link no longer works. Ask for a new one.",
+      "serverError": "Something went wrong. Please try again."
+    }
+  }
+}

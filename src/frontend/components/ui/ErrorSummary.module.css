@@ -1,0 +1,11 @@
+.box {
+  padding: var(--space-4);
+  background: var(--color-error-bg);
+  border: 3px solid var(--color-error);
+  border-radius: var(--radius);
+  color: var(--color-text);
+}
+.title { margin: 0 0 var(--space-2); font-size: var(--text-large); color: var(--color-error); }
+.message { margin: 0; }
+.list { margin: var(--space-2) 0 0; padding-inline-start: var(--space-6); display: grid; gap: var(--space-2); }
+.list a { color: var(--color-error); font-weight: 600; }

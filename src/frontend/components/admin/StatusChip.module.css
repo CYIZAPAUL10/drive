@@ -1,0 +1,12 @@
+.chip {
+  display: inline-block;
+  padding: 0.125rem 0.625rem;
+  border-radius: 999px;
+  font-size: var(--text-small);
+  font-weight: 700;
+}
+.NEW { background: #f8ca11; color: #1a1a1a; }        /* 11.2:1 */
+.CONTACTED { background: #dbeafe; color: #1e3a8a; }  /* 8.5:1 */
+.CONFIRMED { background: #dcfce7; color: #14532d; }  /* 8.3:1 */
+.COMPLETED { background: #e5e7eb; color: #1f2937; }  /* 11.9:1 */
+.CANCELLED { background: #fee2e2; color: #7f1d1d; }  /* 8.2:1 */

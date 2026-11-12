@@ -1,0 +1,36 @@
+{
+  "Auth": {
+    "menu": {
+      "signIn": "Injira",
+      "label": "Menu ya konti",
+      "signedInAs": "Winjiye nka {name}",
+      "requests": "Ubusabe bwanjye",
+      "settings": "Igenamiterere",
+      "signOut": "Sohoka"
+    },
+    "google": {
+      "continue": "Komeza ukoresheje Google",
+      "or": "cyangwa",
+      "error": {
+        "google": "Ntitwabashije kukwinjiza dukoresheje Google. Ongera ugerageze, cyangwa ukoreshe imeri n'ijambobanga.",
+        "google_cancelled": "Kwinjira ukoresheje Google byahagaritswe. Ushobora kongera kugerageza, cyangwa gukoresha imeri n'ijambobanga.",
+        "google_unverified": "Google ivuga ko iyi mimero itemejwe, ntidushobora kuyikoresha."
+      }
+    },
+    "exists": {
+      "title": "Iyi mimero isanzwe ifite konti",
+      "text": "Injira aho kuyifungura. Niba wiyandikishije ukoresheje Google, hitamo Komeza ukoresheje Google. Niba wibagiwe ijambobanga, ushobora guhitamo irishya.",
+      "signIn": "Injira",
+      "forgot": "Naribagiwe ijambobanga",
+      "pendingTitle": "Nyamuneka emeza imeri yawe",
+      "pendingText": "Waratangiye gufungura konti ukoresheje iyi mimero, ariko ntiremezwa. Twohereje ihuza rishya ryo kwemeza. Rimara amasaha 24."
+    },
+    "delete": {
+      "emailLabel": "Andika imeri yawe kugira ngo wemeze",
+      "emailHint": "Konti yawe yafunguwe ukoresheje Google, ntifite ijambobanga."
+    },
+    "errors": {
+      "emailMismatch": "Iyi si imeri ya konti yawe."
+    }
+  }
+}

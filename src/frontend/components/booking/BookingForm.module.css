@@ -1,0 +1,23 @@
+.form { display: grid; gap: var(--space-8); }
+.section { display: grid; gap: var(--space-4); }
+.sectionTitle {
+  margin: 0;
+  padding-bottom: var(--space-2);
+  font-size: var(--text-large);
+  border-bottom: 3px solid var(--color-yellow);
+}
+.row { display: grid; gap: var(--space-4); }
+@media (min-width: 40rem) { .row { grid-template-columns: 1fr 1fr; } }
+
+.daysField { display: none; }
+.form:has(input[name='tripType'][value='multi_day']:checked) .daysField { display: block; }
+
+.notice {
+  margin: 0;
+  padding: var(--space-4);
+  background: var(--color-surface);
+  border-left: 6px solid var(--color-yellow);
+  border-radius: var(--radius);
+  font-weight: 600;
+}
+.small { margin: 0; font-size: var(--text-small); color: var(--color-text-muted); }

@@ -1,0 +1,36 @@
+{
+  "Auth": {
+    "menu": {
+      "signIn": "Se connecter",
+      "label": "Menu du compte",
+      "signedInAs": "Connecté en tant que {name}",
+      "requests": "Mes demandes",
+      "settings": "Paramètres",
+      "signOut": "Se déconnecter"
+    },
+    "google": {
+      "continue": "Continuer avec Google",
+      "or": "ou",
+      "error": {
+        "google": "Nous n'avons pas pu vous connecter avec Google. Veuillez réessayer, ou utiliser votre e-mail et votre mot de passe.",
+        "google_cancelled": "La connexion avec Google a été annulée. Vous pouvez réessayer, ou utiliser votre e-mail et votre mot de passe.",
+        "google_unverified": "Google indique que cette adresse e-mail n'est pas vérifiée, nous ne pouvons donc pas l'utiliser."
+      }
+    },
+    "exists": {
+      "title": "Cette adresse e-mail a déjà un compte",
+      "text": "Connectez-vous plutôt. Si vous vous êtes inscrit avec Google, choisissez Continuer avec Google. Si vous avez oublié votre mot de passe, vous pouvez en choisir un nouveau.",
+      "signIn": "Se connecter",
+      "forgot": "Mot de passe oublié",
+      "pendingTitle": "Veuillez confirmer votre e-mail",
+      "pendingText": "Vous avez déjà commencé à créer un compte avec cette adresse, mais elle n'est pas encore confirmée. Nous avons envoyé un nouveau lien de confirmation. Il est valable 24 heures."
+    },
+    "delete": {
+      "emailLabel": "Saisissez votre adresse e-mail pour confirmer",
+      "emailHint": "Votre compte a été créé avec Google, il n'a donc pas de mot de passe."
+    },
+    "errors": {
+      "emailMismatch": "Ce n'est pas l'adresse e-mail de votre compte."
+    }
+  }
+}

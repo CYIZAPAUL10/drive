@@ -1,0 +1,36 @@
+{
+  "Auth": {
+    "menu": {
+      "signIn": "Sign in",
+      "label": "Account menu",
+      "signedInAs": "Signed in as {name}",
+      "requests": "My requests",
+      "settings": "Settings",
+      "signOut": "Sign out"
+    },
+    "google": {
+      "continue": "Continue with Google",
+      "or": "or",
+      "error": {
+        "google": "We could not sign you in with Google. Please try again, or use your email and password.",
+        "google_cancelled": "Google sign-in was cancelled. You can try again, or use your email and password.",
+        "google_unverified": "Google reports that this email address is not verified, so we cannot use it."
+      }
+    },
+    "exists": {
+      "title": "This email already has an account",
+      "text": "Sign in instead. If you signed up with Google, choose Continue with Google. If you forgot your password, you can choose a new one.",
+      "signIn": "Sign in",
+      "forgot": "Forgot password",
+      "pendingTitle": "Please confirm your email",
+      "pendingText": "You started creating an account with this email before, but it is not confirmed yet. We sent a new confirmation link. It works for 24 hours."
+    },
+    "delete": {
+      "emailLabel": "Type your email address to confirm",
+      "emailHint": "Your account was created with Google, so it has no password."
+    },
+    "errors": {
+      "emailMismatch": "This is not the email address of your account."
+    }
+  }
+}

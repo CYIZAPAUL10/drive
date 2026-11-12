@@ -1,0 +1,46 @@
+.block { position: relative; overflow: hidden; background: #e5e7eb; border-radius: var(--radius); }
+.darkBlock { background: #2b2b2b; }
+
+.line { height: 1rem; }
+.title { height: 2rem; width: 60%; }
+.medium { width: 75%; }
+.short { width: 40%; }
+.chip { height: 1.5rem; width: 6rem; border-radius: 999px; }
+
+/* Hidden for the first quarter second, so fast pages never flash a skeleton */
+.page,
+.adminPage {
+  opacity: 0;
+  animation: skeleton-in 0.01s linear 0.25s forwards;
+}
+@keyframes skeleton-in {
+  to { opacity: 1; }
+}
+
+.hero { background: var(--color-dark); padding: var(--space-8) var(--space-4); }
+.inner { max-width: 40rem; margin-inline: auto; display: grid; gap: var(--space-3); }
+.body { padding: var(--space-8) var(--space-4) var(--space-12); }
+.list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-3); }
+.card { padding: var(--space-4); border: 1px solid var(--color-divider); border-radius: var(--radius); display: grid; gap: var(--space-2); }
+
+.adminTitle { height: 2.25rem; width: 30%; margin-bottom: var(--space-6); }
+.adminGrid { display: grid; gap: var(--space-4); grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); }
+.adminCard { height: 9rem; }
+
+/* A soft light sweeps across. It stops by itself after about 8 seconds. */
+@media (prefers-reduced-motion: no-preference) {
+  .block::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    transform: translateX(-100%);
+    background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.55), transparent);
+    animation: shimmer 1.4s ease-in-out 6;
+  }
+  .darkBlock::after {
+    background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.12), transparent);
+  }
+}
+@keyframes shimmer {
+  to { transform: translateX(100%); }
+}

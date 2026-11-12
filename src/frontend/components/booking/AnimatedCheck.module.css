@@ -1,0 +1,22 @@
+.check { display: block; }
+
+.circle,
+.tick {
+  fill: none;
+  stroke: var(--color-yellow);
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0; /* fully drawn when there is no motion */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .circle { animation: draw 0.5s ease-out both; }
+  .tick { animation: draw 0.35s ease-out 0.45s both; }
+}
+
+@keyframes draw {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
